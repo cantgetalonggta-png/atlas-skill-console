@@ -1,0 +1,10 @@
+node_modules/
+.tanstack/
+dist/
+.DS_Store
+*.log
+.env
+.env.local
+.vercel
+screenshots/
+artifacts/tmp/
