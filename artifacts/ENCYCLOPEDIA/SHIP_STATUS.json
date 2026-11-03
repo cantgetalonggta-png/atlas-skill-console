@@ -1,0 +1,24 @@
+{
+  "ts": "2026-11-03T06:25:24.846116Z",
+  "github": {
+    "repo": "cantgetalonggta-png/atlas-skill-console",
+    "id": 1443896421,
+    "url": "https://github.com/cantgetalonggta-png/atlas-skill-console",
+    "commits": [
+      "12c2b60",
+      "efccc61",
+      "bca56a3"
+    ],
+    "src_files": 67
+  },
+  "mcp": {
+    "mcporter": "0.16.1",
+    "servers_configured": 25,
+    "healthy_at_list": 0,
+    "note": "stdio npx packages register; first cold start may show offline until packages cached"
+  },
+  "vercel": {
+    "pending": true,
+    "team": "team_kgQcPVmumwtmK3MdAGlxKJtg"
+  }
+}
