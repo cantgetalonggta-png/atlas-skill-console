@@ -1,0 +1,14 @@
+{
+  "name": "deploy-everything",
+  "description": "Vite frontend, Vercel path, GitHub, OSS gate, CI parity",
+  "version": "1.0.0",
+  "author": "autonomous-grok-session",
+  "license": "MIT",
+  "category": "deployment",
+  "keywords": [
+    "deploy-everything",
+    "deployment",
+    "etc",
+    "healed"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "hooks": [
+    {
+      "event": "session_start",
+      "command": "echo [plugin] deploy-everything session_start"
+    },
+    {
+      "event": "post_tool_use",
+      "command": "true"
+    }
+  ]
+}

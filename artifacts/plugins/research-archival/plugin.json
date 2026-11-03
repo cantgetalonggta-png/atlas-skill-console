@@ -1,0 +1,14 @@
+{
+  "name": "research-archival",
+  "description": "Archivist 200-search protocol, ethical harvest, scraper orchestration",
+  "version": "1.0.0",
+  "author": "autonomous-grok-session",
+  "license": "MIT",
+  "category": "research",
+  "keywords": [
+    "research-archival",
+    "research",
+    "etc",
+    "healed"
+  ]
+}

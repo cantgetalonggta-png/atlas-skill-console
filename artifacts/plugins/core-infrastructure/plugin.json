@@ -1,0 +1,14 @@
+{
+  "name": "core-infrastructure",
+  "description": "FUSE heal, session state, install-hands-off, inventory, action ledger",
+  "version": "1.0.0",
+  "author": "autonomous-grok-session",
+  "license": "MIT",
+  "category": "infrastructure",
+  "keywords": [
+    "core-infrastructure",
+    "infrastructure",
+    "etc",
+    "healed"
+  ]
+}

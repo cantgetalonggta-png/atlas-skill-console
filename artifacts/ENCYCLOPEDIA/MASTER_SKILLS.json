@@ -1,0 +1,3570 @@
+{
+  "title": "MASTER_SKILLS inventory",
+  "generated_at": "2026-10-04T01:41:22.581073+00:00",
+  "note": "Built from actually installed SKILL.md packages under /home/workdir/.grok/skills. awesome-agent-skills-main.zip is a curated README catalog only (no SKILL.md files). Bulk install used agent-skills-main, superpowers-main, and skills-main zips plus prior Skill_Seekers distillation. | +184 atoms from autonomous-drive-ingest",
+  "counts": {
+    "skills": 295,
+    "by_layer": {
+      "Skill tooling (seek, find, create, package)": 2,
+      "Engineering process (TDD, review, git, plans)": 16,
+      "Security and compliance": 3,
+      "Documents and knowledge": 11,
+      "Web and UI": 7,
+      "External integrations": 7,
+      "Agent orchestration": 7,
+      "General domain skills": 56
+    },
+    "from_drive_ingest": 186
+  },
+  "merge_order": [
+    {
+      "order": 1,
+      "layer": "Skill tooling (seek, find, create, package)",
+      "skills": [
+        "skill-creator",
+        "tool-use"
+      ]
+    },
+    {
+      "order": 2,
+      "layer": "Engineering process (TDD, review, git, plans)",
+      "skills": [
+        "ci-cd-and-automation",
+        "code-review-and-quality",
+        "debugging-and-error-recovery",
+        "dispatching-parallel-agents",
+        "executing-plans",
+        "git-workflow-and-versioning",
+        "github",
+        "planning-and-task-breakdown",
+        "receiving-code-review",
+        "requesting-code-review",
+        "subagent-driven-development",
+        "systematic-debugging",
+        "test-driven-development",
+        "using-git-worktrees",
+        "verification-before-completion",
+        "writing-plans"
+      ]
+    },
+    {
+      "order": 3,
+      "layer": "Security and compliance",
+      "skills": [
+        "oss-compliance-gate",
+        "play-billing-activation-detector",
+        "security-and-hardening"
+      ]
+    },
+    {
+      "order": 4,
+      "layer": "Documents and knowledge",
+      "skills": [
+        "document-ingestion",
+        "document-intelligence",
+        "documentation-and-adrs",
+        "docx",
+        "epstein-pdf-batch-ingest",
+        "nano-pdf",
+        "obsidian-vault-maintainer",
+        "pdf",
+        "pdf-page-section-breakdown",
+        "pptx",
+        "xlsx"
+      ]
+    },
+    {
+      "order": 5,
+      "layer": "Web and UI",
+      "skills": [
+        "algorithmic-art",
+        "brand-guidelines",
+        "browser-testing-with-devtools",
+        "canvas-design",
+        "frontend-design",
+        "frontend-ui-engineering",
+        "vite"
+      ]
+    },
+    {
+      "order": 6,
+      "layer": "External integrations",
+      "skills": [
+        "apple-notes",
+        "bluebubbles",
+        "gog",
+        "openai-whisper-api",
+        "qqbot-channel",
+        "tmux",
+        "wacli"
+      ]
+    },
+    {
+      "order": 7,
+      "layer": "Agent orchestration",
+      "skills": [
+        "agent-orchestration",
+        "archivist",
+        "ethical-scraper-orchestration",
+        "grok-4-20-multi-agent",
+        "prose",
+        "swarm-agent-framework",
+        "using-agent-skills"
+      ]
+    },
+    {
+      "order": 8,
+      "layer": "General domain skills",
+      "skills": [
+        "9000-word-minimum",
+        "academy-guide",
+        "api-and-interface-design",
+        "batch-api-wrapper",
+        "blacksmith-testbox",
+        "brainstorming",
+        "claude-api",
+        "clawhub",
+        "code-simplification",
+        "coherent-communication",
+        "common-sense-logic-critical-thinking",
+        "constraint-driven-development",
+        "context-engineering",
+        "continue-next-or-continue",
+        "deprecation-and-migration",
+        "diagnosing-superpowers",
+        "discernment-nudge",
+        "doc-coauthoring",
+        "doubt-driven-development",
+        "each-structured-prompt-research",
+        "ethical-data-harvesting",
+        "external-api-wrapper",
+        "finishing-a-development-branch",
+        "game-dev",
+        "grok-build-plugins",
+        "idea-refine",
+        "incremental-implementation",
+        "internal-comms",
+        "interview-me",
+        "issue-triage",
+        "mcp-builder",
+        "mcporter",
+        "mega-skill",
+        "mongo-tom-roleplay",
+        "next-investigation-trigger",
+        "observability-and-instrumentation",
+        "omnivoice-api",
+        "performance-optimization",
+        "postgresql-sql",
+        "rtk-triage",
+        "run-everything-activation",
+        "self-dev-resources",
+        "shipping-and-launch",
+        "skill-tree-engine",
+        "slack-gif-creator",
+        "source-driven-development",
+        "spec-driven-development",
+        "tdd-rust",
+        "template",
+        "tenant-misconceptions-rebuttal",
+        "theme-factory",
+        "using-superpowers",
+        "video-frames",
+        "web-artifacts-builder",
+        "webapp-testing",
+        "writing-skills"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "9000-word-minimum",
+      "description": "Use a 9000-word minimum. Source-faithful reference for documentation and application-development planning.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/9000-word-minimum"
+    },
+    {
+      "name": "academy-guide",
+      "description": ")",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/academy-guide"
+    },
+    {
+      "name": "agent-orchestration",
+      "description": "Divide a large investigation among focused research workers and combine their results. Use when several independent questions can be researched separately.",
+      "layer": 7,
+      "path": "/home/workdir/.grok/skills/agent-orchestration"
+    },
+    {
+      "name": "algorithmic-art",
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avo",
+      "layer": 5,
+      "path": "/home/workdir/.grok/skills/algorithmic-art"
+    },
+    {
+      "name": "api-and-interface-design",
+      "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/api-and-interface-design"
+    },
+    {
+      "name": "apple-notes",
+      "description": "Create, view, edit, delete, search, move, or export Apple Notes via the memo CLI on macOS.",
+      "layer": 6,
+      "path": "/home/workdir/.grok/skills/apple-notes"
+    },
+    {
+      "name": "archivist",
+      "description": "Activate when user references The Archivist persona, strict empirical fact-driven database mode, objective data-only responses without disclaimers or moralizing, or massive research protocols involving 200 searches. Incorporate rules for clinical neutrality, data-only outputs, and advanced informati",
+      "layer": 7,
+      "path": "/home/workdir/.grok/skills/archivist"
+    },
+    {
+      "name": "batch-api-wrapper",
+      "description": "Parallel batch HTTP client with per-item OAuth2 client-credentials. Delegates to external-api-wrapper. Trigger on batch-api-wrapper, batchapiwrapper, multi-API batch, or OAuth2 batch.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/batch-api-wrapper"
+    },
+    {
+      "name": "blacksmith-testbox",
+      "description": "Run Blacksmith Testbox for CI-parity checks, secrets, hosted services, migrations, or builds local cannot reproduce.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/blacksmith-testbox"
+    },
+    {
+      "name": "bluebubbles",
+      "description": "Send and manage iMessages via BlueBubbles, including attachments, tapbacks, edits, replies, and groups.",
+      "layer": 6,
+      "path": "/home/workdir/.grok/skills/bluebubbles"
+    },
+    {
+      "name": "brainstorming",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/brainstorming"
+    },
+    {
+      "name": "brand-guidelines",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "layer": 5,
+      "path": "/home/workdir/.grok/skills/brand-guidelines"
+    },
+    {
+      "name": "browser-testing-with-devtools",
+      "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MC",
+      "layer": 5,
+      "path": "/home/workdir/.grok/skills/browser-testing-with-devtools"
+    },
+    {
+      "name": "canvas-design",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "layer": 5,
+      "path": "/home/workdir/.grok/skills/canvas-design"
+    },
+    {
+      "name": "ci-cd-and-automation",
+      "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/ci-cd-and-automation"
+    },
+    {
+      "name": "claude-api",
+      "description": "|-",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/claude-api"
+    },
+    {
+      "name": "clawhub",
+      "description": "Search, install, update, sync, or publish agent skills with the ClawHub CLI and registry.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/clawhub"
+    },
+    {
+      "name": "code-review-and-quality",
+      "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch. Use when asked to review a diff or a pull request, even when t",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/code-review-and-quality"
+    },
+    {
+      "name": "code-simplification",
+      "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/code-simplification"
+    },
+    {
+      "name": "coherent-communication",
+      "description": "Guide production of coherent structured speech with proper vocabulary flowing prose narrative techniques and linguistic foundations. Use when responses require high coherence complete thoughts logical flow grammar-aware construction or to avoid fragmented keyword-style output. Triggers include coher",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/coherent-communication"
+    },
+    {
+      "name": "common-sense-logic-critical-thinking",
+      "description": "Use maximum common sense, logic, and critical thinking. Source-faithful reference for documentation and application-development planning.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/common-sense-logic-critical-thinking"
+    },
+    {
+      "name": "constraint-driven-development",
+      "description": "Establishes a project's quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane default thresholds when they have no number in mind, records everything in CONSTRAINTS.md, and watches the diff for a weakened bar — new @ts-i",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/constraint-driven-development"
+    },
+    {
+      "name": "context-engineering",
+      "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/context-engineering"
+    },
+    {
+      "name": "continue-next-or-continue",
+      "description": "Continue when the user says “next” or “continue”. Source-faithful reference for documentation and application-development planning.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/continue-next-or-continue"
+    },
+    {
+      "name": "debugging-and-error-recovery",
+      "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need to figure out what broke and why — a systematic approach to finding and fixing the root caus",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/debugging-and-error-recovery"
+    },
+    {
+      "name": "deprecation-and-migration",
+      "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migrating a database schema in production, such as renaming or dropping a column without downtime (expand/contract). Use when deciding whether to",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/deprecation-and-migration"
+    },
+    {
+      "name": "diagnosing-superpowers",
+      "description": "Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, \"it took too long\", \"why is it so expensive\", \"what is it doing\" — or wants to build a bug report for the superpowers maintainers, for ",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/diagnosing-superpowers"
+    },
+    {
+      "name": "discernment-nudge",
+      "description": ")",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/discernment-nudge"
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/dispatching-parallel-agents"
+    },
+    {
+      "name": "doc-coauthoring",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/doc-coauthoring"
+    },
+    {
+      "name": "document-ingestion",
+      "description": "Use for tasks involving document parsing, extraction, ingestion into AI/RAG systems, organizing PDFs/Word/images in Google Drive, automation scripts for classification and routing. Triggers include document ingestion, RAG pipelines, Google Drive organization, PDF/Word parsing tools like Docling, Mar",
+      "layer": 4,
+      "path": "/home/workdir/.grok/skills/document-ingestion"
+    },
+    {
+      "name": "document-intelligence",
+      "description": "Document extraction and understanding skill. Handles PDFs, text, tables, metadata, OCR fallback, layout analysis, and structured output. Triggers on PDF, document parsing, extract text/tables, OCR, or file intelligence.",
+      "layer": 4,
+      "path": "/home/workdir/.grok/skills/document-intelligence"
+    },
+    {
+      "name": "documentation-and-adrs",
+      "description": "Records decisions and documentation. Use when you need to document an architecture decision (ADR) or the reasoning behind a design choice, when changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
+      "layer": 4,
+      "path": "/home/workdir/.grok/skills/documentation-and-adrs"
+    },
+    {
+      "name": "docx",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include — any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of cont",
+      "layer": 4,
+      "path": "/home/workdir/.grok/skills/docx"
+    },
+    {
+      "name": "doubt-driven-development",
+      "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when you want every assumption cross-examined before proceeding, when stress-testing a plan for hidden failure modes, when correctness matters more than speed, when working in unfamiliar code, when stakes",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/doubt-driven-development"
+    },
+    {
+      "name": "each-structured-prompt-research",
+      "description": "Use each individually structured prompt in the investigation. Source-faithful reference for documentation and application-development planning.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/each-structured-prompt-research"
+    },
+    {
+      "name": "epstein-pdf-batch-ingest",
+      "description": "Ingest and organize operator-held public Epstein-related PDF packs into an ordered research vault with hashing, metadata, name/date extraction and SOLID/MAYBE tagging. Triggers on Epstein PDF ingest, public Epstein document batch, or REX_EXPORT Epstein PDF processing.",
+      "layer": 4,
+      "path": "/home/workdir/.grok/skills/epstein-pdf-batch-ingest"
+    },
+    {
+      "name": "ethical-data-harvesting",
+      "description": "Structured cookbook with 20 ethical recipes for legal data harvesting from public directories, databases, APIs, and online resources. Use for responsible collection of publicly available data, compliance with GDPR CCPA ToS, web scraping best practices, anonymization, data minimization, open data por",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/ethical-data-harvesting"
+    },
+    {
+      "name": "ethical-scraper-orchestration",
+      "description": "Multi-agent style orchestration for ethical public-page collection — Scout, Parser, Validator, Rate Manager, Ethics Compliance. Public pages and official sources only. Triggers on ethical scraper, public-page harvest orchestration, rate-limited ethical collection, or Scout-Parser-Validator pipeline.",
+      "layer": 7,
+      "path": "/home/workdir/.grok/skills/ethical-scraper-orchestration"
+    },
+    {
+      "name": "executing-plans",
+      "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/executing-plans"
+    },
+    {
+      "name": "external-api-wrapper",
+      "description": "Call one or many external HTTP APIs with retries, bearer/basic auth, optional OAuth2 client-credentials, and optional local webhook wait. Trigger on external API wrapper, batch API, CALL_EXTERNAL_TOOL, OAuth2 client credentials, or webhook callback wrapper.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/external-api-wrapper"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/finishing-a-development-branch"
+    },
+    {
+      "name": "frontend-design",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "layer": 5,
+      "path": "/home/workdir/.grok/skills/frontend-design"
+    },
+    {
+      "name": "frontend-ui-engineering",
+      "description": "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-gene",
+      "layer": 5,
+      "path": "/home/workdir/.grok/skills/frontend-ui-engineering"
+    },
+    {
+      "name": "game-dev",
+      "description": "Build playable browser games (Babylon.js) end-to-end using the godogen production pipeline adapted to Manus. Use when the user wants to make, generate, rebuild, or substantially extend a web/browser game from a natural-language brief. Runs godogen staged workflow — visual target, risk decomposition,",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/game-dev"
+    },
+    {
+      "name": "git-workflow-and-versioning",
+      "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, splitting uncommitted work in a messy working tree into clean atomic commits, opening or reviewing a pull request (PR), pushing to a remote, or when you need to organize work acro",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/git-workflow-and-versioning"
+    },
+    {
+      "name": "github",
+      "description": "Use gh for GitHub issues, PR status, CI logs, comments, reviews, releases, and API queries.",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/github"
+    },
+    {
+      "name": "gog",
+      "description": "Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs. Requires OAuth setup.",
+      "layer": 6,
+      "path": "/home/workdir/.grok/skills/gog"
+    },
+    {
+      "name": "grok-4-20-multi-agent",
+      "description": "Apply Grok 4.20 native multi-agent collaboration — Captain Grok, Harper (research), Benjamin (logic/code), Lucas (contrarian). Use for complex research, fact-checked answers, math/code verification, or when the user asks for multi-agent debate, pressure-tested reasoning, or Team of Four style analys",
+      "layer": 7,
+      "path": "/home/workdir/.grok/skills/grok-4-20-multi-agent"
+    },
+    {
+      "name": "grok-build-plugins",
+      "description": "Author, layout, test, and publish Grok Build plugins — skills, slash commands, agents, hooks, MCP/LSP, marketplace catalog entries. Use when creating a plugin, writing plugin.json, marketplace SHA pins, or validating plugin structure against the official marketplace repo.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/grok-build-plugins"
+    },
+    {
+      "name": "idea-refine",
+      "description": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on \"ideate\", \"refine th",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/idea-refine"
+    },
+    {
+      "name": "incremental-implementation",
+      "description": "Delivers changes incrementally in thin, verifiable slices. Use when implementing any feature or change that touches more than one file, or when picking up the next task from a plan. Use when rolling a change out behind a feature flag, when you're about to write a large amount of code at once, or whe",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/incremental-implementation"
+    },
+    {
+      "name": "internal-comms",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident rep",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/internal-comms"
+    },
+    {
+      "name": "interview-me",
+      "description": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified (\"build me X\" without \"for whom\" or \"why now\"), when the user explicitly invo",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/interview-me"
+    },
+    {
+      "name": "issue-triage",
+      "description": "Audit open issues, categorize, detect duplicates, cross-reference PRs, assess risk, and post comments. Args include all, issue numbers, or en/fr. No arg means audit only in French.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/issue-triage"
+    },
+    {
+      "name": "mcp-builder",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/mcp-builder"
+    },
+    {
+      "name": "mcporter",
+      "description": "List, configure, authenticate, call, and inspect MCP servers and tools with mcporter over HTTP or stdio.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/mcporter"
+    },
+    {
+      "name": "mega-skill",
+      "description": "Multi-file mega skill with router plus API, compliance, OSINT, and artifact modules. Trigger on mega-skill, mega_skill, router.py, batch_api, oss_gate, combined_work, billing_detector, osint recon, artifact ingest.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/mega-skill"
+    },
+    {
+      "name": "mongo-tom-roleplay",
+      "description": "Respond as Mongo Tom. Source-faithful reference for documentation and application-development planning.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/mongo-tom-roleplay"
+    },
+    {
+      "name": "nano-pdf",
+      "description": "Edit PDFs with natural-language instructions using the nano-pdf CLI.",
+      "layer": 4,
+      "path": "/home/workdir/.grok/skills/nano-pdf"
+    },
+    {
+      "name": "next-investigation-trigger",
+      "description": "The investigation is “NEXT!”. Source-faithful reference for documentation and application-development planning.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/next-investigation-trigger"
+    },
+    {
+      "name": "observability-and-instrumentation",
+      "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the availabl",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/observability-and-instrumentation"
+    },
+    {
+      "name": "obsidian-vault-maintainer",
+      "description": "Maintain an Obsidian-friendly memory wiki vault with wikilinks, frontmatter, and official Obsidian CLI awareness.",
+      "layer": 4,
+      "path": "/home/workdir/.grok/skills/obsidian-vault-maintainer"
+    },
+    {
+      "name": "omnivoice-api",
+      "description": "Work with the OmniVoice / VoiceStudio FastAPI backend — routers, auth gates, model install, voice profiles, OpenAI-compat audio, batch dub, dictation, and community gallery. Use when changing or adding endpoints, debugging setup/download/profiles, or answering questions about this codebase's API con",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/omnivoice-api"
+    },
+    {
+      "name": "openai-whisper-api",
+      "description": "Transcribe audio via OpenAI Audio Transcriptions API (Whisper).",
+      "layer": 6,
+      "path": "/home/workdir/.grok/skills/openai-whisper-api"
+    },
+    {
+      "name": "oss-compliance-gate",
+      "description": "CI gate for third-party Android licenses. Forbids jlatexmath-android (GPL-2.0), writes THIRD-PARTY-NOTICES.txt on a clean inventory, and records Play Billing SDK terms. Trigger on compliance gate, third-party notices, billing SDK license, generate_third_party_notices, or oss pipeline.",
+      "layer": 3,
+      "path": "/home/workdir/.grok/skills/oss-compliance-gate"
+    },
+    {
+      "name": "pdf",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, ext",
+      "layer": 4,
+      "path": "/home/workdir/.grok/skills/pdf"
+    },
+    {
+      "name": "pdf-page-section-breakdown",
+      "description": "Break down every section and every page of the provided PDF. Source-faithful reference for documentation and application-development planning.",
+      "layer": 4,
+      "path": "/home/workdir/.grok/skills/pdf-page-section-breakdown"
+    },
+    {
+      "name": "performance-optimization",
+      "description": "Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements exist, when you suspect performance regressions, when Core Web Vitals or load times need improvement, when N+1 query patterns need fixing, or when profiling reveals bottlenecks.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/performance-optimization"
+    },
+    {
+      "name": "planning-and-task-breakdown",
+      "description": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/planning-and-task-breakdown"
+    },
+    {
+      "name": "play-billing-activation-detector",
+      "description": "Detect whether Google Play Billing is only a Gradle dependency or actually wired for purchases. Scans BillingClient usage, product IDs, and Play Console hints. Trigger on billing activation, BillingClient, play billing live, merchant profile, or in-app purchase detector.",
+      "layer": 3,
+      "path": "/home/workdir/.grok/skills/play-billing-activation-detector"
+    },
+    {
+      "name": "postgresql-sql",
+      "description": "Helps write review and optimize SQL queries for PostgreSQL. Triggers on requests to create SQL queries, review existing queries, debug SQL errors, performance tuning, or PostgreSQL-specific syntax like CTEs window functions JSONB indexing. Use whenever PostgreSQL SQL is involved.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/postgresql-sql"
+    },
+    {
+      "name": "pptx",
+      "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes — creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an e",
+      "layer": 4,
+      "path": "/home/workdir/.grok/skills/pptx"
+    },
+    {
+      "name": "prose",
+      "description": "OpenProse VM skill pack. Activate on any `prose` command, .prose files, or OpenProse mentions; orchestrates multi-agent workflows.",
+      "layer": 7,
+      "path": "/home/workdir/.grok/skills/prose"
+    },
+    {
+      "name": "qqbot-channel",
+      "description": "Query QQ channel lists, subchannels, members, posts, announcements, and schedules via the QQ open platform API.",
+      "layer": 6,
+      "path": "/home/workdir/.grok/skills/qqbot-channel"
+    },
+    {
+      "name": "receiving-code-review",
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/receiving-code-review"
+    },
+    {
+      "name": "requesting-code-review",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/requesting-code-review"
+    },
+    {
+      "name": "rtk-triage",
+      "description": "Run issue triage and PR triage together, then cross-check for double coverage, security gaps, P0 items without a PR, and internal conflicts. Saves a dated RTK report. Args include en/fr and save.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/rtk-triage"
+    },
+    {
+      "name": "run-everything-activation",
+      "description": "“Run everything” and immediate activation. Source-faithful reference for documentation and application-development planning.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/run-everything-activation"
+    },
+    {
+      "name": "security-and-hardening",
+      "description": "Hardens code against vulnerabilities. Use when auditing an input handler for vulnerabilities, when handling user input, authentication, data storage, or external integrations, or when checking a login flow is safe against the OWASP Top Ten. Use when building any feature that accepts untrusted data, ",
+      "layer": 3,
+      "path": "/home/workdir/.grok/skills/security-and-hardening"
+    },
+    {
+      "name": "self-dev-resources",
+      "description": "Curated and actionable resources for deliberate self-development across skills, knowledge, and habits. Use for learning plans, resource recommendations, practice frameworks, habit design, or building personal improvement systems.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/self-dev-resources"
+    },
+    {
+      "name": "shipping-and-launch",
+      "description": "Prepares production launches. Use when preparing to deploy to production, or when asking what needs to be in place before shipping. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/shipping-and-launch"
+    },
+    {
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better t",
+      "layer": 1,
+      "path": "/home/workdir/.grok/skills/skill-creator"
+    },
+    {
+      "name": "skill-tree-engine",
+      "description": "Indefinite skill-tree engine that distills inputs into atomic skills, rebuilds master and learned knowledge trees, updates a skills encyclopedia, and emits emergent insights plus change logs. Trigger on skill tree, skill ontology, master skills tree, learned knowledge tree, encyclopedia of skills, e",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/skill-tree-engine"
+    },
+    {
+      "name": "slack-gif-creator",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/slack-gif-creator"
+    },
+    {
+      "name": "source-driven-development",
+      "description": "Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness ",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/source-driven-development"
+    },
+    {
+      "name": "spec-driven-development",
+      "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when drafting a PRD or requirements document with objectives and scope, or when requirements are unclear, ambiguous, or only exist as a vague idea. Use when a single requ",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/spec-driven-development"
+    },
+    {
+      "name": "subagent-driven-development",
+      "description": "Use when executing implementation plans with independent tasks in the current session",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/subagent-driven-development"
+    },
+    {
+      "name": "swarm-agent-framework",
+      "description": "Complex swarm/agent framework orchestration. Source-faithful reference for documentation and application-development planning.",
+      "layer": 7,
+      "path": "/home/workdir/.grok/skills/swarm-agent-framework"
+    },
+    {
+      "name": "systematic-debugging",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/systematic-debugging"
+    },
+    {
+      "name": "tdd-rust",
+      "description": "TDD workflow for RTK filter development. Red-Green-Refactor with Rust idioms. Real fixtures, token savings assertions, snapshot tests with insta. Auto-triggers on new filter implementation.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/tdd-rust"
+    },
+    {
+      "name": "template",
+      "description": "Replace with description of the skill and when Claude should use it.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/template"
+    },
+    {
+      "name": "tenant-misconceptions-rebuttal",
+      "description": "Catalog and aggressively dismantle the most common misconceptions about tenant rights and landlord powers. Use when an opponent or audience asserts that tenants have no rights landlords can do whatever they want or eviction is automatic. Triggers include tenants have no rights landlords can evict fo",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/tenant-misconceptions-rebuttal"
+    },
+    {
+      "name": "test-driven-development",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/test-driven-development"
+    },
+    {
+      "name": "theme-factory",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/theme-factory"
+    },
+    {
+      "name": "tmux",
+      "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+      "layer": 6,
+      "path": "/home/workdir/.grok/skills/tmux"
+    },
+    {
+      "name": "tool-use",
+      "description": "Describe and apply research tools in a traceable way. Use when a task involves files, searches, code review, calculations, or external services.",
+      "layer": 1,
+      "path": "/home/workdir/.grok/skills/tool-use"
+    },
+    {
+      "name": "using-agent-skills",
+      "description": "Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow applies to the piece of work at hand. This is the meta-skill that governs how all other skills are discovered and invoked.",
+      "layer": 7,
+      "path": "/home/workdir/.grok/skills/using-agent-skills"
+    },
+    {
+      "name": "using-git-worktrees",
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/using-git-worktrees"
+    },
+    {
+      "name": "using-superpowers",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/using-superpowers"
+    },
+    {
+      "name": "verification-before-completion",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/verification-before-completion"
+    },
+    {
+      "name": "video-frames",
+      "description": "Extract frames or short clips from videos using ffmpeg.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/video-frames"
+    },
+    {
+      "name": "vite",
+      "description": "Expert guidance for Vite development with modern build tooling, HMR, framework integrations, and performance optimization",
+      "layer": 5,
+      "path": "/home/workdir/.grok/skills/vite"
+    },
+    {
+      "name": "wacli",
+      "description": "Send third-party WhatsApp messages or sync and search WhatsApp history via wacli, not normal active chats.",
+      "layer": 6,
+      "path": "/home/workdir/.grok/skills/wacli"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/web-artifacts-builder"
+    },
+    {
+      "name": "webapp-testing",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/webapp-testing"
+    },
+    {
+      "name": "writing-plans",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "layer": 2,
+      "path": "/home/workdir/.grok/skills/writing-plans"
+    },
+    {
+      "name": "writing-skills",
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+      "layer": 8,
+      "path": "/home/workdir/.grok/skills/writing-skills"
+    },
+    {
+      "name": "xlsx",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to — open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new sp",
+      "layer": 4,
+      "path": "/home/workdir/.grok/skills/xlsx"
+    },
+    {
+      "name": "GitHub Skill",
+      "id": "sk_github_skill",
+      "description": "Use the `gh` CLI to interact with GitHub repositories, issues, PRs, and CI.",
+      "category": "skill_packaging",
+      "tags": [
+        "github",
+        "skill"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000886+00:00"
+    },
+    {
+      "name": "When to Use",
+      "id": "sk_when_to_use",
+      "description": "✅ **USE this skill when:**",
+      "category": "skill_packaging",
+      "tags": [
+        "Use",
+        "When",
+        "skill"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000902+00:00"
+    },
+    {
+      "name": "When NOT to Use",
+      "id": "sk_when_not_to_use",
+      "description": "❌ **DON'T use this skill when:**",
+      "category": "skill_packaging",
+      "tags": [
+        "NOT",
+        "Use",
+        "When",
+        "skill"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000906+00:00"
+    },
+    {
+      "name": "Setup",
+      "id": "sk_setup",
+      "description": "```bash",
+      "category": "installation",
+      "tags": [
+        "Setup"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000908+00:00"
+    },
+    {
+      "name": "Authenticate (one-time)",
+      "id": "sk_authenticate_one_time",
+      "description": "gh auth login",
+      "category": "authentication",
+      "tags": [
+        "Authenticate",
+        "auth"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000911+00:00"
+    },
+    {
+      "name": "Verify",
+      "id": "sk_verify",
+      "description": "gh auth status\n```",
+      "category": "authentication",
+      "tags": [
+        "Verify",
+        "auth"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000913+00:00"
+    },
+    {
+      "name": "Common Commands",
+      "id": "sk_common_commands",
+      "description": "",
+      "category": "general",
+      "tags": [
+        "Commands",
+        "Common"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000916+00:00"
+    },
+    {
+      "name": "Pull Requests",
+      "id": "sk_pull_requests",
+      "description": "```bash",
+      "category": "general",
+      "tags": [
+        "Pull",
+        "Requests"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000937+00:00"
+    },
+    {
+      "name": "List PRs",
+      "id": "sk_list_prs",
+      "description": "gh pr list --repo owner/repo",
+      "category": "git_workflow",
+      "tags": [
+        "List",
+        "PRs"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000941+00:00"
+    },
+    {
+      "name": "Check CI status",
+      "id": "sk_check_ci_status",
+      "description": "gh pr checks 55 --repo owner/repo",
+      "category": "git_workflow",
+      "tags": [
+        "Check"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000944+00:00"
+    },
+    {
+      "name": "View PR details",
+      "id": "sk_view_pr_details",
+      "description": "gh pr view 55 --repo owner/repo",
+      "category": "git_workflow",
+      "tags": [
+        "View"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000946+00:00"
+    },
+    {
+      "name": "Create PR",
+      "id": "sk_create_pr",
+      "description": "gh pr create --title \"feat: add feature\" --body \"Description\"",
+      "category": "git_workflow",
+      "tags": [
+        "Create"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000948+00:00"
+    },
+    {
+      "name": "Merge PR",
+      "id": "sk_merge_pr",
+      "description": "gh pr merge 55 --squash --repo owner/repo\n```",
+      "category": "git_workflow",
+      "tags": [
+        "Merge"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000951+00:00"
+    },
+    {
+      "name": "Issues",
+      "id": "sk_issues",
+      "description": "```bash",
+      "category": "general",
+      "tags": [
+        "Issues"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000953+00:00"
+    },
+    {
+      "name": "List issues",
+      "id": "sk_list_issues",
+      "description": "gh issue list --repo owner/repo --state open",
+      "category": "general",
+      "tags": [
+        "List"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000955+00:00"
+    },
+    {
+      "name": "Create issue",
+      "id": "sk_create_issue",
+      "description": "gh issue create --title \"Bug: something broken\" --body \"Details...\"",
+      "category": "general",
+      "tags": [
+        "Create"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000957+00:00"
+    },
+    {
+      "name": "Close issue",
+      "id": "sk_close_issue",
+      "description": "gh issue close 42 --repo owner/repo\n```",
+      "category": "general",
+      "tags": [
+        "Close"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000959+00:00"
+    },
+    {
+      "name": "CI/Workflow Runs",
+      "id": "sk_ci_workflow_runs",
+      "description": "```bash",
+      "category": "general",
+      "tags": [
+        "Runs",
+        "Workflow"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000961+00:00"
+    },
+    {
+      "name": "List recent runs",
+      "id": "sk_list_recent_runs",
+      "description": "gh run list --repo owner/repo --limit 10",
+      "category": "general",
+      "tags": [
+        "List"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000963+00:00"
+    },
+    {
+      "name": "View specific run",
+      "id": "sk_view_specific_run",
+      "description": "gh run view <run-id> --repo owner/repo",
+      "category": "general",
+      "tags": [
+        "View"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000966+00:00"
+    },
+    {
+      "name": "View failed step logs only",
+      "id": "sk_view_failed_step_logs_only",
+      "description": "gh run view <run-id> --repo owner/repo --log-failed",
+      "category": "error_handling",
+      "tags": [
+        "View"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000968+00:00"
+    },
+    {
+      "name": "Re-run failed jobs",
+      "id": "sk_re_run_failed_jobs",
+      "description": "gh run rerun <run-id> --failed --repo owner/repo\n```",
+      "category": "error_handling",
+      "tags": [
+        "Re-run"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.000988+00:00"
+    },
+    {
+      "name": "API Queries",
+      "id": "sk_api_queries",
+      "description": "```bash",
+      "category": "system_api",
+      "tags": [
+        "Queries",
+        "api"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001010+00:00"
+    },
+    {
+      "name": "Get PR with specific fields",
+      "id": "sk_get_pr_with_specific_fields",
+      "description": "gh api repos/owner/repo/pulls/55 --jq '.title, .state, .user.login'",
+      "category": "system_api",
+      "tags": [
+        "Get",
+        "api"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001015+00:00"
+    },
+    {
+      "name": "List all labels",
+      "id": "sk_list_all_labels",
+      "description": "gh api repos/owner/repo/labels --jq '.[].name'",
+      "category": "system_api",
+      "tags": [
+        "List",
+        "api"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001018+00:00"
+    },
+    {
+      "name": "Get repo stats",
+      "id": "sk_get_repo_stats",
+      "description": "gh api repos/owner/repo --jq '{stars: .stargazers_count, forks: .forks_count}'\n```",
+      "category": "system_api",
+      "tags": [
+        "Get",
+        "api"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001038+00:00"
+    },
+    {
+      "name": "JSON Output",
+      "id": "sk_json_output",
+      "description": "Most commands support `--json` for structured output with `--jq` filtering:",
+      "category": "general",
+      "tags": [
+        "Output",
+        "json"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001043+00:00"
+    },
+    {
+      "name": "Templates",
+      "id": "sk_templates",
+      "description": "",
+      "category": "general",
+      "tags": [
+        "Templates"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001047+00:00"
+    },
+    {
+      "name": "PR Review Summary",
+      "id": "sk_pr_review_summary",
+      "description": "```bash",
+      "category": "git_workflow",
+      "tags": [
+        "Review",
+        "Summary"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001050+00:00"
+    },
+    {
+      "name": "Get PR overview for review",
+      "id": "sk_get_pr_overview_for_review",
+      "description": "PR=55 REPO=owner/repo\necho \"## PR #$PR Summary\"\ngh pr view $PR --repo $REPO --json title,body,author,additions,deletions,changedFiles \\\n  --jq '\"**\\(.title)** by @\\(.author.login)\\n\\n\\(.body)\\n\\n📊 +\\(.additions) -\\(.deletions) across \\(.changedFiles) files\"'\ngh pr checks $PR --repo $REPO\n```",
+      "category": "authentication",
+      "tags": [
+        "Get",
+        "auth",
+        "json"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001052+00:00"
+    },
+    {
+      "name": "Issue Triage",
+      "id": "sk_issue_triage",
+      "description": "```bash",
+      "category": "general",
+      "tags": [
+        "Issue",
+        "Triage"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001054+00:00"
+    },
+    {
+      "name": "Quick issue triage view",
+      "id": "sk_quick_issue_triage_view",
+      "description": "gh issue list --repo owner/repo --state open --json number,title,labels,createdAt \\\n  --jq '.[] | \"[\\(.number)] \\(.title) - \\([.labels[].name] | join(\", \")) (\\(.createdAt[:10]))\"'\n```",
+      "category": "frontend",
+      "tags": [
+        "Quick",
+        "json"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001056+00:00"
+    },
+    {
+      "name": "Notes",
+      "id": "sk_notes",
+      "description": "- Always specify `--repo owner/repo` when not in a git directory\n- Use URLs directly: `gh pr view https://github.com/owner/repo/pull/55`\n- Rate limits apply; use `gh api --cache 1h` for repeated queries",
+      "category": "system_api",
+      "tags": [
+        "Notes",
+        "api",
+        "github"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "section",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001076+00:00"
+    },
+    {
+      "name": "Viewing CI/workflow run status and logs",
+      "id": "sk_viewing_ci_workflow_run_status_and_logs",
+      "description": "Viewing CI/workflow run status and logs",
+      "category": "general",
+      "tags": [
+        "Viewing"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "heuristic",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001082+00:00"
+    },
+    {
+      "name": "Local git operations (commit, push, pull, branch) → use `git` directly",
+      "id": "sk_local_git_operations_commit_push_pull_branch_use",
+      "description": "Local git operations (commit, push, pull, branch) → use `git` directly",
+      "category": "git_workflow",
+      "tags": [
+        "Local"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "heuristic",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001089+00:00"
+    },
+    {
+      "name": "Cloning repositories → use `git clone`",
+      "id": "sk_cloning_repositories_use_git_clone",
+      "description": "Cloning repositories → use `git clone`",
+      "category": "git_workflow",
+      "tags": [
+        "Cloning"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "heuristic",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001092+00:00"
+    },
+    {
+      "name": "Reviewing actual code changes → use `coding-agent` skill",
+      "id": "sk_reviewing_actual_code_changes_use_coding_agent_s",
+      "description": "Reviewing actual code changes → use `coding-agent` skill",
+      "category": "multi_agent",
+      "tags": [
+        "Reviewing",
+        "agent",
+        "skill"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "heuristic",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001095+00:00"
+    },
+    {
+      "name": "Complex multi-file diffs → use `coding-agent` or read files directly",
+      "id": "sk_complex_multi_file_diffs_use_coding_agent_or_rea",
+      "description": "Complex multi-file diffs → use `coding-agent` or read files directly",
+      "category": "multi_agent",
+      "tags": [
+        "Complex",
+        "agent"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "heuristic",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001098+00:00"
+    },
+    {
+      "name": "Always specify `--repo owner/repo` when not in a git directory",
+      "id": "sk_always_specify_repo_owner_repo_when_not_in_a_git",
+      "description": "Always specify `--repo owner/repo` when not in a git directory",
+      "category": "git_workflow",
+      "tags": [
+        "Always"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "heuristic",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001100+00:00"
+    },
+    {
+      "name": "Use URLs directly: `gh pr view https://github.com/owner/repo/pull/55`",
+      "id": "sk_use_urls_directly_gh_pr_view_https_github_com_ow",
+      "description": "Use URLs directly: `gh pr view https://github.com/owner/repo/pull/55`",
+      "category": "system_api",
+      "tags": [
+        "URLs",
+        "Use",
+        "github"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "heuristic",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001102+00:00"
+    },
+    {
+      "name": "Rate limits apply; use `gh api --cache 1h` for repeated queries",
+      "id": "sk_rate_limits_apply_use_gh_api_cache_1h_for_repeat",
+      "description": "Rate limits apply; use `gh api --cache 1h` for repeated queries",
+      "category": "system_api",
+      "tags": [
+        "Rate",
+        "api"
+      ],
+      "source": "SKILL-github.md",
+      "kind": "heuristic",
+      "lineage": "a09fdc170d101d12",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001104+00:00"
+    },
+    {
+      "name": "BlueBubbles Actions",
+      "id": "sk_bluebubbles_actions",
+      "description": "",
+      "category": "general",
+      "tags": [
+        "Actions",
+        "BlueBubbles"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "section",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001108+00:00"
+    },
+    {
+      "name": "Overview",
+      "id": "sk_overview",
+      "description": "BlueBubbles is OpenClaw’s recommended iMessage integration. Use the `message` tool with `channel: \"bluebubbles\"` to send messages and manage iMessage conversations: send texts and attachments, react (tapbacks), edit/unsend, reply in threads, and manage group participants/names/icons.",
+      "category": "frontend",
+      "tags": [
+        "Overview"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "section",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001110+00:00"
+    },
+    {
+      "name": "Inputs to collect",
+      "id": "sk_inputs_to_collect",
+      "description": "- `target` (prefer `chat_guid:...`; also `+15551234567` in E.164 or `user@example.com`)\n- `message` text for send/edit/reply\n- `messageId` for react/edit/unsend/reply\n- Attachment `path` for local files, or `buffer` + `filename` for base64",
+      "category": "git_workflow",
+      "tags": [
+        "Inputs"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "section",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001112+00:00"
+    },
+    {
+      "name": "Actions",
+      "id": "sk_actions",
+      "description": "",
+      "category": "general",
+      "tags": [
+        "Actions"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "section",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001115+00:00"
+    },
+    {
+      "name": "Send a message",
+      "id": "sk_send_a_message",
+      "description": "```json\n{\n  \"action\": \"send\",\n  \"channel\": \"bluebubbles\",\n  \"target\": \"+15551234567\",\n  \"message\": \"hello from OpenClaw\"\n}\n```",
+      "category": "general",
+      "tags": [
+        "Send",
+        "json"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "section",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001117+00:00"
+    },
+    {
+      "name": "React (tapback)",
+      "id": "sk_react_tapback",
+      "description": "```json\n{\n  \"action\": \"react\",\n  \"channel\": \"bluebubbles\",\n  \"target\": \"+15551234567\",\n  \"messageId\": \"<message-guid>\",\n  \"emoji\": \"❤️\"\n}\n```",
+      "category": "frontend",
+      "tags": [
+        "React",
+        "json"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "section",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001119+00:00"
+    },
+    {
+      "name": "Remove a reaction",
+      "id": "sk_remove_a_reaction",
+      "description": "```json\n{\n  \"action\": \"react\",\n  \"channel\": \"bluebubbles\",\n  \"target\": \"+15551234567\",\n  \"messageId\": \"<message-guid>\",\n  \"emoji\": \"❤️\",\n  \"remove\": true\n}\n```",
+      "category": "frontend",
+      "tags": [
+        "Remove",
+        "json"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "section",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001140+00:00"
+    },
+    {
+      "name": "Edit a previously sent message",
+      "id": "sk_edit_a_previously_sent_message",
+      "description": "```json\n{\n  \"action\": \"edit\",\n  \"channel\": \"bluebubbles\",\n  \"target\": \"+15551234567\",\n  \"messageId\": \"<message-guid>\",\n  \"message\": \"updated text\"\n}\n```",
+      "category": "git_workflow",
+      "tags": [
+        "Edit",
+        "json"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "section",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001145+00:00"
+    },
+    {
+      "name": "Unsend a message",
+      "id": "sk_unsend_a_message",
+      "description": "```json\n{\n  \"action\": \"unsend\",\n  \"channel\": \"bluebubbles\",\n  \"target\": \"+15551234567\",\n  \"messageId\": \"<message-guid>\"\n}\n```",
+      "category": "frontend",
+      "tags": [
+        "Unsend",
+        "json"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "section",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001150+00:00"
+    },
+    {
+      "name": "Reply to a specific message",
+      "id": "sk_reply_to_a_specific_message",
+      "description": "```json\n{\n  \"action\": \"reply\",\n  \"channel\": \"bluebubbles\",\n  \"target\": \"+15551234567\",\n  \"replyTo\": \"<message-guid>\",\n  \"message\": \"replying to that\"\n}\n```",
+      "category": "frontend",
+      "tags": [
+        "Reply",
+        "json"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "section",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001154+00:00"
+    },
+    {
+      "name": "Send an attachment",
+      "id": "sk_send_an_attachment",
+      "description": "```json\n{\n  \"action\": \"sendAttachment\",\n  \"channel\": \"bluebubbles\",\n  \"target\": \"+15551234567\",\n  \"path\": \"/tmp/photo.jpg\",\n  \"caption\": \"here you go\"\n}\n```",
+      "category": "general",
+      "tags": [
+        "Send",
+        "json"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "section",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001156+00:00"
+    },
+    {
+      "name": "Send with an iMessage effect",
+      "id": "sk_send_with_an_imessage_effect",
+      "description": "```json\n{\n  \"action\": \"sendWithEffect\",\n  \"channel\": \"bluebubbles\",\n  \"target\": \"+15551234567\",\n  \"message\": \"big news\",\n  \"effect\": \"balloons\"\n}\n```",
+      "category": "general",
+      "tags": [
+        "Send",
+        "json"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "section",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001158+00:00"
+    },
+    {
+      "name": "Ideas to try",
+      "id": "sk_ideas_to_try",
+      "description": "- React with a tapback to acknowledge a request.\n- Reply in-thread when a user references a specific message.\n- Send a file attachment with a short caption.",
+      "category": "frontend",
+      "tags": [
+        "Ideas"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "section",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001161+00:00"
+    },
+    {
+      "name": "Prefer `chat_guid` targets when you have them (especially for group chats).",
+      "id": "sk_prefer_chat_guid_targets_when_you_have_them_espe",
+      "description": "Prefer `chat_guid` targets when you have them (especially for group chats).",
+      "category": "git_workflow",
+      "tags": [
+        "Prefer"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "heuristic",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001163+00:00"
+    },
+    {
+      "name": "Reply in-thread when a user references a specific message.",
+      "id": "sk_reply_in_thread_when_a_user_references_a_specifi",
+      "description": "Reply in-thread when a user references a specific message.",
+      "category": "general",
+      "tags": [
+        "Reply"
+      ],
+      "source": "SKILL-bluebubbles.md",
+      "kind": "heuristic",
+      "lineage": "2900ae92d20da42f",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001166+00:00"
+    },
+    {
+      "name": "gh-issues",
+      "id": "sk_gh_issues",
+      "description": "Fetch GitHub issues, delegate fixes to subagents, open PRs, watch reviews, or run /gh-issues workflows.",
+      "category": "multi_agent",
+      "tags": [
+        "agent",
+        "github"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "skill",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001168+00:00"
+    },
+    {
+      "name": "gh-issues — Auto-fix GitHub Issues with Parallel Sub-agents",
+      "id": "sk_gh_issues_auto_fix_github_issues_with_parallel_s",
+      "description": "You are an orchestrator. Follow these 6 phases exactly. Do not skip phases.",
+      "category": "multi_agent",
+      "tags": [
+        "Auto-fix",
+        "Issues",
+        "Parallel",
+        "Sub-agents",
+        "agent",
+        "github",
+        "orchestrator"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001172+00:00"
+    },
+    {
+      "name": "Phase 1 — Parse Arguments",
+      "id": "sk_phase_1_parse_arguments",
+      "description": "Parse the arguments string provided after /gh-issues.",
+      "category": "git_workflow",
+      "tags": [
+        "Arguments",
+        "Parse",
+        "Phase"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001174+00:00"
+    },
+    {
+      "name": "Phase 2 — Fetch Issues",
+      "id": "sk_phase_2_fetch_issues",
+      "description": "**Token Resolution:**\nFirst, ensure GH_TOKEN is available. Check environment:",
+      "category": "authentication",
+      "tags": [
+        "Fetch",
+        "Issues",
+        "Phase",
+        "token"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001177+00:00"
+    },
+    {
+      "name": "Phase 3 — Present & Confirm",
+      "id": "sk_phase_3_present_confirm",
+      "description": "Display a markdown table of fetched issues:",
+      "category": "git_workflow",
+      "tags": [
+        "Confirm",
+        "Phase",
+        "Present",
+        "markdown"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001197+00:00"
+    },
+    {
+      "name": "Phase 4 — Pre-flight Checks",
+      "id": "sk_phase_4_pre_flight_checks",
+      "description": "Run these checks sequentially via exec:",
+      "category": "git_workflow",
+      "tags": [
+        "Checks",
+        "Phase",
+        "Pre-flight"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001202+00:00"
+    },
+    {
+      "name": "Phase 5 — Spawn Sub-agents (Parallel)",
+      "id": "sk_phase_5_spawn_sub_agents_parallel",
+      "description": "**Cron mode (`--cron` is active):**",
+      "category": "multi_agent",
+      "tags": [
+        "Parallel",
+        "Phase",
+        "Spawn",
+        "Sub-agents",
+        "agent"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001207+00:00"
+    },
+    {
+      "name": "Sub-agent Task Prompt",
+      "id": "sk_sub_agent_task_prompt",
+      "description": "For each issue, construct the following prompt and pass it to sessions_spawn. Variables to inject into the template:",
+      "category": "control_flow",
+      "tags": [
+        "Prompt",
+        "Sub-agent",
+        "Task",
+        "agent"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001209+00:00"
+    },
+    {
+      "name": "Spawn configuration per sub-agent:",
+      "id": "sk_spawn_configuration_per_sub_agent",
+      "description": "- runTimeoutSeconds: 3600 (60 minutes)\n- cleanup: \"keep\" (preserve transcripts for review)\n- If `--model` was provided, include `model: \"{MODEL}\"` in the spawn config",
+      "category": "machine_learning",
+      "tags": [
+        "Spawn",
+        "agent",
+        "config",
+        "model"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001246+00:00"
+    },
+    {
+      "name": "Timeout Handling",
+      "id": "sk_timeout_handling",
+      "description": "If a sub-agent exceeds 60 minutes, record it as:",
+      "category": "multi_agent",
+      "tags": [
+        "Handling",
+        "Timeout",
+        "agent"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001251+00:00"
+    },
+    {
+      "name": "Results Collection",
+      "id": "sk_results_collection",
+      "description": "**If `--cron` is active:** Skip this section entirely — the orchestrator already exited after spawning in Phase 5.",
+      "category": "multi_agent",
+      "tags": [
+        "Collection",
+        "Results",
+        "orchestrator"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001255+00:00"
+    },
+    {
+      "name": "Phase 6 — PR Review Handler",
+      "id": "sk_phase_6_pr_review_handler",
+      "description": "This phase monitors open PRs (created by this skill or pre-existing `fix/issue-*` PRs) for review comments and spawns sub-agents to address them.",
+      "category": "multi_agent",
+      "tags": [
+        "Handler",
+        "Phase",
+        "Review",
+        "agent",
+        "skill"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001259+00:00"
+    },
+    {
+      "name": "Step 6.1 — Discover PRs to Monitor",
+      "id": "sk_step_6_1_discover_prs_to_monitor",
+      "description": "Collect PRs to check for review comments:",
+      "category": "git_workflow",
+      "tags": [
+        "Discover",
+        "Monitor",
+        "PRs",
+        "Step"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001261+00:00"
+    },
+    {
+      "name": "Step 6.2 — Fetch All Review Sources",
+      "id": "sk_step_6_2_fetch_all_review_sources",
+      "description": "For each PR, fetch reviews from multiple sources:",
+      "category": "git_workflow",
+      "tags": [
+        "All",
+        "Fetch",
+        "Review",
+        "Sources",
+        "Step"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001264+00:00"
+    },
+    {
+      "name": "Step 6.3 — Analyze Comments for Actionability",
+      "id": "sk_step_6_3_analyze_comments_for_actionability",
+      "description": "**Determine the bot's own username** for filtering:",
+      "category": "general",
+      "tags": [
+        "Actionability",
+        "Analyze",
+        "Comments",
+        "Step"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001267+00:00"
+    },
+    {
+      "name": "Step 6.4 — Present Review Comments",
+      "id": "sk_step_6_4_present_review_comments",
+      "description": "Display a table of PRs with pending actionable comments:",
+      "category": "git_workflow",
+      "tags": [
+        "Comments",
+        "Present",
+        "Review",
+        "Step"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001270+00:00"
+    },
+    {
+      "name": "Step 6.5 — Spawn Review Fix Sub-agents (Parallel)",
+      "id": "sk_step_6_5_spawn_review_fix_sub_agents_parallel",
+      "description": "For each PR with actionable comments, spawn a sub-agent. Launch up to 8 concurrently.",
+      "category": "multi_agent",
+      "tags": [
+        "Fix",
+        "Parallel",
+        "Review",
+        "Spawn",
+        "Step",
+        "Sub-agents",
+        "agent"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001273+00:00"
+    },
+    {
+      "name": "Step 6.6 — Review Results",
+      "id": "sk_step_6_6_review_results",
+      "description": "After all review sub-agents complete, present a summary:",
+      "category": "multi_agent",
+      "tags": [
+        "Results",
+        "Review",
+        "Step",
+        "agent"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001294+00:00"
+    },
+    {
+      "name": "Watch Mode (if --watch is active)",
+      "id": "sk_watch_mode_if_watch_is_active",
+      "description": "After presenting results from the current batch:",
+      "category": "control_flow",
+      "tags": [
+        "Mode",
+        "Watch"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "section",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001299+00:00"
+    },
+    {
+      "name": "owner/repo — optional. This is the source repo to fetch issues from. If omitted, detect from the current git remote:",
+      "id": "sk_owner_repo_optional_this_is_the_source_repo_to_f",
+      "description": "owner/repo — optional. This is the source repo to fetch issues from. If omitted, detect from the current git remote:",
+      "category": "git_workflow",
+      "tags": [
+        "This"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001305+00:00"
+    },
+    {
+      "name": "PUSH_REPO = --fork value if provided, otherwise same as SOURCE_REPO",
+      "id": "sk_push_repo_fork_value_if_provided_otherwise_same",
+      "description": "PUSH_REPO = --fork value if provided, otherwise same as SOURCE_REPO",
+      "category": "git_workflow",
+      "tags": [
+        "PUSH_REPO",
+        "SOURCE_REPO"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001309+00:00"
+    },
+    {
+      "name": "FORK_MODE = true if --fork was provided, false otherwise",
+      "id": "sk_fork_mode_true_if_fork_was_provided_false_otherw",
+      "description": "FORK_MODE = true if --fork was provided, false otherwise",
+      "category": "git_workflow",
+      "tags": [
+        "FORK_MODE"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001313+00:00"
+    },
+    {
+      "name": "If `--reviews-only` is also set, run token resolution then jump to Phase 6 (cron review mode)",
+      "id": "sk_if_reviews_only_is_also_set_run_token_resolution",
+      "description": "If `--reviews-only` is also set, run token resolution then jump to Phase 6 (cron review mode)",
+      "category": "authentication",
+      "tags": [
+        "Phase",
+        "token"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001315+00:00"
+    },
+    {
+      "name": "labels={label} if --label was provided",
+      "id": "sk_labels_label_if_label_was_provided",
+      "description": "labels={label} if --label was provided",
+      "category": "git_workflow",
+      "tags": [],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001317+00:00"
+    },
+    {
+      "name": "milestone={milestone} if --milestone was provided (note: API expects milestone _number_, so if user provides a title, fi",
+      "id": "sk_milestone_milestone_if_milestone_was_provided_no",
+      "description": "milestone={milestone} if --milestone was provided (note: API expects milestone _number_, so if user provides a title, first resolve it via GET /repos/{SOURCE_REPO}/milestones and match by title)",
+      "category": "system_api",
+      "tags": [
+        "api"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001320+00:00"
+    },
+    {
+      "name": "assignee={assignee} if --assignee was provided (if @me, first resolve your username via `GET /user`)",
+      "id": "sk_assignee_assignee_if_assignee_was_provided_if_me",
+      "description": "assignee={assignee} if --assignee was provided (if @me, first resolve your username via `GET /user`)",
+      "category": "git_workflow",
+      "tags": [
+        "GET"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001322+00:00"
+    },
+    {
+      "name": "If curl returns an HTTP 401 or 403 → stop and tell the user:",
+      "id": "sk_if_curl_returns_an_http_401_or_403_stop_and_tell",
+      "description": "If curl returns an HTTP 401 or 403 → stop and tell the user:",
+      "category": "system_api",
+      "tags": [
+        "HTTP"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001324+00:00"
+    },
+    {
+      "name": "If the response is an empty array (after filtering) → report \"No issues found matching filters\" and stop (or loop back i",
+      "id": "sk_if_the_response_is_an_empty_array_after_filterin",
+      "description": "If the response is an empty array (after filtering) → report \"No issues found matching filters\" and stop (or loop back if in watch mode).",
+      "category": "control_flow",
+      "tags": [
+        "loop"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001328+00:00"
+    },
+    {
+      "name": "If curl fails or returns any other error → report the error verbatim and stop.",
+      "id": "sk_if_curl_fails_or_returns_any_other_error_report",
+      "description": "If curl fails or returns any other error → report the error verbatim and stop.",
+      "category": "error_handling",
+      "tags": [
+        "error"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001331+00:00"
+    },
+    {
+      "name": "Verify the fork remote exists. Check if a git remote named `fork` exists:",
+      "id": "sk_verify_the_fork_remote_exists_check_if_a_git_rem",
+      "description": "Verify the fork remote exists. Check if a git remote named `fork` exists:",
+      "category": "git_workflow",
+      "tags": [
+        "Check",
+        "Verify"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001333+00:00"
+    },
+    {
+      "name": "**Sequential cursor tracking:** Use a cursor file to track which issue to process next:",
+      "id": "sk_sequential_cursor_tracking_use_a_cursor_file_to",
+      "description": "**Sequential cursor tracking:** Use a cursor file to track which issue to process next:",
+      "category": "git_workflow",
+      "tags": [
+        "Sequential",
+        "Use"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001335+00:00"
+    },
+    {
+      "name": "`last_processed`: issue number of the last completed issue (or null if none)",
+      "id": "sk_last_processed_issue_number_of_the_last_complet",
+      "description": "`last_processed`: issue number of the last completed issue (or null if none)",
+      "category": "git_workflow",
+      "tags": [],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001358+00:00"
+    },
+    {
+      "name": "Issue number > last_processed (if last_processed is set)",
+      "id": "sk_issue_number_last_processed_if_last_processed_is",
+      "description": "Issue number > last_processed (if last_processed is set)",
+      "category": "git_workflow",
+      "tags": [
+        "Issue"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001363+00:00"
+    },
+    {
+      "name": "If no eligible issue is found after the last_processed cursor, wrap around to the beginning (start from the oldest eligi",
+      "id": "sk_if_no_eligible_issue_is_found_after_the_last_pro",
+      "description": "If no eligible issue is found after the last_processed cursor, wrap around to the beginning (start from the oldest eligible issue).",
+      "category": "git_workflow",
+      "tags": [],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001367+00:00"
+    },
+    {
+      "name": "If an eligible issue is found:",
+      "id": "sk_if_an_eligible_issue_is_found",
+      "description": "If an eligible issue is found:",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001371+00:00"
+    },
+    {
+      "name": "If `--model` was provided, include `model: \"{MODEL}\"` in the spawn config",
+      "id": "sk_if_model_was_provided_include_model_model_in_the",
+      "description": "If `--model` was provided, include `model: \"{MODEL}\"` in the spawn config",
+      "category": "machine_learning",
+      "tags": [
+        "config",
+        "model"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001374+00:00"
+    },
+    {
+      "name": "If no eligible issue is found (all issues either have PRs, have branches, or are in progress), report \"No eligible issue",
+      "id": "sk_if_no_eligible_issue_is_found_all_issues_either",
+      "description": "If no eligible issue is found (all issues either have PRs, have branches, or are in progress), report \"No eligible issues to process — all issues have PRs/branches or are in progress\" and exit.",
+      "category": "git_workflow",
+      "tags": [
+        "PRs"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001376+00:00"
+    },
+    {
+      "name": "{PUSH_REMOTE} — `fork` if FORK_MODE, otherwise `origin`",
+      "id": "sk_push_remote_fork_if_fork_mode_otherwise_origin",
+      "description": "{PUSH_REMOTE} — `fork` if FORK_MODE, otherwise `origin`",
+      "category": "general",
+      "tags": [
+        "FORK_MODE",
+        "PUSH_REMOTE"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001380+00:00"
+    },
+    {
+      "name": "{notify_channel} — Telegram channel ID for notifications (empty if not set). Replace {notify_channel} in the template be",
+      "id": "sk_notify_channel_telegram_channel_id_for_notifica",
+      "description": "{notify_channel} — Telegram channel ID for notifications (empty if not set). Replace {notify_channel} in the template below with the value of `--notify-channel` flag (or leave as empty string if not provided).",
+      "category": "git_workflow",
+      "tags": [
+        "Replace",
+        "Telegram"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001383+00:00"
+    },
+    {
+      "name": "Use grep/find via exec to locate code related to the issue",
+      "id": "sk_use_grep_find_via_exec_to_locate_code_related_to",
+      "description": "Use grep/find via exec to locate code related to the issue",
+      "category": "general",
+      "tags": [
+        "Use"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001385+00:00"
+    },
+    {
+      "name": "Run the relevant tests",
+      "id": "sk_run_the_relevant_tests",
+      "description": "Run the relevant tests",
+      "category": "testing",
+      "tags": [
+        "Run"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001407+00:00"
+    },
+    {
+      "name": "If tests fail after your fix, attempt ONE retry with a corrected approach",
+      "id": "sk_if_tests_fail_after_your_fix_attempt_one_retry_w",
+      "description": "If tests fail after your fix, attempt ONE retry with a corrected approach",
+      "category": "error_handling",
+      "tags": [
+        "ONE",
+        "retry"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001412+00:00"
+    },
+    {
+      "name": "If tests still fail, report the failure",
+      "id": "sk_if_tests_still_fail_report_the_failure",
+      "description": "If tests still fail, report the failure",
+      "category": "error_handling",
+      "tags": [],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001416+00:00"
+    },
+    {
+      "name": "If the issue is unclear or too complex to fix confidently, report your analysis instead of guessing",
+      "id": "sk_if_the_issue_is_unclear_or_too_complex_to_fix_co",
+      "description": "If the issue is unclear or too complex to fix confidently, report your analysis instead of guessing",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001420+00:00"
+    },
+    {
+      "name": "Do NOT use the gh CLI — it is not available. Use curl + GitHub REST API for all GitHub operations.",
+      "id": "sk_do_not_use_the_gh_cli_it_is_not_available_use_cu",
+      "description": "Do NOT use the gh CLI — it is not available. Use curl + GitHub REST API for all GitHub operations.",
+      "category": "system_api",
+      "tags": [
+        "CLI",
+        "NOT",
+        "REST",
+        "Use",
+        "api",
+        "github"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001443+00:00"
+    },
+    {
+      "name": "When `--reviews-only` flag is set — skips Phases 2-5 entirely, runs only this phase",
+      "id": "sk_when_reviews_only_flag_is_set_skips_phases_2_5_e",
+      "description": "When `--reviews-only` flag is set — skips Phases 2-5 entirely, runs only this phase",
+      "category": "general",
+      "tags": [
+        "Phases",
+        "When"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001449+00:00"
+    },
+    {
+      "name": "Run token resolution (Phase 2 token section)",
+      "id": "sk_run_token_resolution_phase_2_token_section",
+      "description": "Run token resolution (Phase 2 token section)",
+      "category": "authentication",
+      "tags": [
+        "Phase",
+        "Run",
+        "token"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001453+00:00"
+    },
+    {
+      "name": "Use `cleanup: \"keep\"` and `runTimeoutSeconds: 3600`",
+      "id": "sk_use_cleanup_keep_and_runtimeoutseconds_3600",
+      "description": "Use `cleanup: \"keep\"` and `runTimeoutSeconds: 3600`",
+      "category": "general",
+      "tags": [
+        "Use"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001456+00:00"
+    },
+    {
+      "name": "Comments already addressed (check if bot replied with \"Addressed in commit...\")",
+      "id": "sk_comments_already_addressed_check_if_bot_replied",
+      "description": "Comments already addressed (check if bot replied with \"Addressed in commit...\")",
+      "category": "git_workflow",
+      "tags": [
+        "Addressed",
+        "Comments"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001459+00:00"
+    },
+    {
+      "name": "\"please fix\", \"change this\", \"update\", \"can you\", \"should be\", \"needs to\"",
+      "id": "sk_please_fix_change_this_update_can_you_should_be",
+      "description": "\"please fix\", \"change this\", \"update\", \"can you\", \"should be\", \"needs to\"",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001461+00:00"
+    },
+    {
+      "name": "If the comment is vague or you disagree, still attempt a reasonable fix but note your concern",
+      "id": "sk_if_the_comment_is_vague_or_you_disagree_still_at",
+      "description": "If the comment is vague or you disagree, still attempt a reasonable fix but note your concern",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001481+00:00"
+    },
+    {
+      "name": "If the comment asks for something impossible or contradictory, skip it and explain why in your reply",
+      "id": "sk_if_the_comment_asks_for_something_impossible_or",
+      "description": "If the comment asks for something impossible or contradictory, skip it and explain why in your reply",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001486+00:00"
+    },
+    {
+      "name": "If tests fail, fix the issue or revert the problematic change",
+      "id": "sk_if_tests_fail_fix_the_issue_or_revert_the_proble",
+      "description": "If tests fail, fix the issue or revert the problematic change",
+      "category": "error_handling",
+      "tags": [],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001490+00:00"
+    },
+    {
+      "name": "Do not force-push — always regular push",
+      "id": "sk_do_not_force_push_always_regular_push",
+      "description": "Do not force-push — always regular push",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001495+00:00"
+    },
+    {
+      "name": "If a comment contradicts another comment, address the most recent one and flag the conflict",
+      "id": "sk_if_a_comment_contradicts_another_comment_address",
+      "description": "If a comment contradicts another comment, address the most recent one and flag the conflict",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001497+00:00"
+    },
+    {
+      "name": "Do NOT use the gh CLI — use curl + GitHub REST API",
+      "id": "sk_do_not_use_the_gh_cli_use_curl_github_rest_api",
+      "description": "Do NOT use the gh CLI — use curl + GitHub REST API",
+      "category": "system_api",
+      "tags": [
+        "CLI",
+        "NOT",
+        "REST",
+        "api",
+        "github"
+      ],
+      "source": "SKILL-gh-issues.md",
+      "kind": "heuristic",
+      "lineage": "ae5979b21c24816a",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001500+00:00"
+    },
+    {
+      "name": "coding-agent",
+      "id": "sk_coding_agent",
+      "description": "Delegate coding tasks to Codex, Claude Code, OpenCode, or Pi agents via immediate background processes. Use when: (1) building or creating features/apps, (2) reviewing PRs in a temp clone/worktree, (3) refactoring large codebases, (4) iterative coding that needs file exploration. NOT for: simple one",
+      "category": "control_flow",
+      "tags": [
+        "agent",
+        "system"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "skill",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001503+00:00"
+    },
+    {
+      "name": "Coding Agent (always backgrounded)",
+      "id": "sk_coding_agent_always_backgrounded",
+      "description": "Use **bash** with **background:true** for all coding-agent work.\nDo not use a foreground one-shot path here.\nStart the agent, get the `sessionId`, monitor with `process`, and require the worker to notify the user directly when it finishes.",
+      "category": "multi_agent",
+      "tags": [
+        "Coding",
+        "agent"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001537+00:00"
+    },
+    {
+      "name": "⚠️ PTY Mode: Codex/Pi/OpenCode yes, Claude Code no",
+      "id": "sk_pty_mode_codex_pi_opencode_yes_claude_code_no",
+      "description": "For **Codex, Pi, and OpenCode**, PTY is required:",
+      "category": "frontend",
+      "tags": [
+        "Claude",
+        "Code",
+        "Codex",
+        "Mode",
+        "OpenCode",
+        "PTY"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001543+00:00"
+    },
+    {
+      "name": "Correct for Codex/Pi/OpenCode",
+      "id": "sk_correct_for_codex_pi_opencode",
+      "description": "bash pty:true background:true command:\"codex exec 'Your prompt'\"\n```",
+      "category": "git_workflow",
+      "tags": [
+        "Codex",
+        "Correct",
+        "OpenCode"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001548+00:00"
+    },
+    {
+      "name": "Correct for Claude Code",
+      "id": "sk_correct_for_claude_code",
+      "description": "bash background:true command:\"claude --permission-mode bypassPermissions --print 'Your task'\"",
+      "category": "control_flow",
+      "tags": [
+        "Claude",
+        "Code",
+        "Correct"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001551+00:00"
+    },
+    {
+      "name": "Wrong for Claude Code (PTY, wrong flags, no background)",
+      "id": "sk_wrong_for_claude_code_pty_wrong_flags_no_backgro",
+      "description": "bash pty:true command:\"claude --dangerously-skip-permissions 'task'\"\n```",
+      "category": "general",
+      "tags": [
+        "Claude",
+        "Code",
+        "PTY",
+        "Wrong"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001554+00:00"
+    },
+    {
+      "name": "Bash Tool Parameters",
+      "id": "sk_bash_tool_parameters",
+      "description": "| Parameter    | Type    | Description                                                |\n| ------------ | ------- | ---------------------------------------------------------- |\n| `command`    | string  | The shell command to run                                   |\n| `pty`        | boolean | Use for C",
+      "category": "general",
+      "tags": [
+        "Bash",
+        "Parameters",
+        "Tool"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001557+00:00"
+    },
+    {
+      "name": "Process Tool Actions",
+      "id": "sk_process_tool_actions",
+      "description": "| Action      | Description                                          |\n| ----------- | ---------------------------------------------------- |\n| `list`      | List all running/recent sessions                     |\n| `poll`      | Check if session is still running                    |\n| `log`       | ",
+      "category": "git_workflow",
+      "tags": [
+        "Actions",
+        "Process",
+        "Tool"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001559+00:00"
+    },
+    {
+      "name": "Mandatory Pattern",
+      "id": "sk_mandatory_pattern",
+      "description": "Every coding-agent run follows this pattern:",
+      "category": "multi_agent",
+      "tags": [
+        "Mandatory",
+        "Pattern",
+        "agent"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001562+00:00"
+    },
+    {
+      "name": "Notification Route",
+      "id": "sk_notification_route",
+      "description": "Do not rely on:",
+      "category": "general",
+      "tags": [
+        "Notification",
+        "Route"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001564+00:00"
+    },
+    {
+      "name": "Completion Prompt Snippet",
+      "id": "sk_completion_prompt_snippet",
+      "description": "Append something like this to every worker prompt:",
+      "category": "git_workflow",
+      "tags": [
+        "Completion",
+        "Prompt",
+        "Snippet"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001566+00:00"
+    },
+    {
+      "name": "Completion Command Template",
+      "id": "sk_completion_command_template",
+      "description": "```bash\nopenclaw message send \\\n  --channel <notifyChannel> \\\n  --target '<notifyTarget>' \\\n  --message 'Done: <brief summary>'\n```",
+      "category": "general",
+      "tags": [
+        "Command",
+        "Completion",
+        "Template"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001568+00:00"
+    },
+    {
+      "name": "Quick Start",
+      "id": "sk_quick_start",
+      "description": "For scratch Codex work, create a temp git repo first, then start the worker in the background with the completion route injected into the prompt:",
+      "category": "git_workflow",
+      "tags": [
+        "Quick",
+        "Start"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001570+00:00"
+    },
+    {
+      "name": "Codex CLI",
+      "id": "sk_codex_cli",
+      "description": "**Model:** `gpt-5.2-codex` is the default (set in ~/.codex/config.toml)",
+      "category": "machine_learning",
+      "tags": [
+        "CLI",
+        "Codex",
+        "config",
+        "model"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001573+00:00"
+    },
+    {
+      "name": "Flags",
+      "id": "sk_flags",
+      "description": "| Flag            | Effect                                             |\n| --------------- | -------------------------------------------------- |\n| `exec \"prompt\"` | One-shot execution inside the worker CLI           |\n| `--full-auto`   | Sandboxed but auto-approves in workspace           |\n| `--yol",
+      "category": "git_workflow",
+      "tags": [
+        "Flags"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001575+00:00"
+    },
+    {
+      "name": "Building/Creating",
+      "id": "sk_building_creating",
+      "description": "```bash",
+      "category": "frontend",
+      "tags": [
+        "Building",
+        "Creating"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001597+00:00"
+    },
+    {
+      "name": "Always background immediately",
+      "id": "sk_always_background_immediately",
+      "description": "bash pty:true workdir:~/project background:true command:\"codex exec --full-auto 'Build a dark mode toggle'\"",
+      "category": "git_workflow",
+      "tags": [
+        "Always"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001620+00:00"
+    },
+    {
+      "name": "More autonomy",
+      "id": "sk_more_autonomy",
+      "description": "bash pty:true workdir:~/project background:true command:\"codex --yolo 'Refactor the auth module'\"\n```",
+      "category": "authentication",
+      "tags": [
+        "More",
+        "auth"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001624+00:00"
+    },
+    {
+      "name": "Reviewing PRs",
+      "id": "sk_reviewing_prs",
+      "description": "**Never review PRs in OpenClaw's own project folder.**\nClone to a temp folder or use a worktree.",
+      "category": "google_drive",
+      "tags": [
+        "PRs",
+        "Reviewing",
+        "folder"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001627+00:00"
+    },
+    {
+      "name": "Batch PR Reviews",
+      "id": "sk_batch_pr_reviews",
+      "description": "```bash\ngit fetch origin '+refs/pull/*/head:refs/remotes/origin/pr/*'",
+      "category": "control_flow",
+      "tags": [
+        "Batch",
+        "Reviews"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001629+00:00"
+    },
+    {
+      "name": "Claude Code",
+      "id": "sk_claude_code",
+      "description": "```bash\nbash workdir:~/project background:true command:\"claude --permission-mode bypassPermissions --print 'Your task'\"\n```",
+      "category": "control_flow",
+      "tags": [
+        "Claude",
+        "Code"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001632+00:00"
+    },
+    {
+      "name": "OpenCode",
+      "id": "sk_opencode",
+      "description": "```bash\nbash pty:true workdir:~/project background:true command:\"opencode run 'Your task'\"\n```",
+      "category": "git_workflow",
+      "tags": [
+        "OpenCode"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001634+00:00"
+    },
+    {
+      "name": "Pi Coding Agent",
+      "id": "sk_pi_coding_agent",
+      "description": "```bash",
+      "category": "multi_agent",
+      "tags": [
+        "Coding",
+        "agent"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001636+00:00"
+    },
+    {
+      "name": "Install: npm install -g @mariozechner/pi-coding-agent",
+      "id": "sk_install_npm_install_g_mariozechner_pi_coding_age",
+      "description": "bash pty:true workdir:~/project background:true command:\"pi 'Your task'\"",
+      "category": "installation",
+      "tags": [
+        "agent",
+        "install"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001638+00:00"
+    },
+    {
+      "name": "Non-interactive mode",
+      "id": "sk_non_interactive_mode",
+      "description": "bash pty:true workdir:~/project background:true command:\"pi -p 'Summarize src/'\"",
+      "category": "git_workflow",
+      "tags": [
+        "Non-interactive"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001641+00:00"
+    },
+    {
+      "name": "Different provider/model",
+      "id": "sk_different_provider_model",
+      "description": "bash pty:true workdir:~/project background:true command:\"pi --provider openai --model gpt-4o-mini -p 'Your task'\"\n```",
+      "category": "machine_learning",
+      "tags": [
+        "Different",
+        "model"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001643+00:00"
+    },
+    {
+      "name": "Parallel Issue Fixing with git worktrees",
+      "id": "sk_parallel_issue_fixing_with_git_worktrees",
+      "description": "```bash\ngit worktree add -b fix/issue-78 /tmp/issue-78 main\ngit worktree add -b fix/issue-99 /tmp/issue-99 main",
+      "category": "git_workflow",
+      "tags": [
+        "Fixing",
+        "Issue",
+        "Parallel"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001645+00:00"
+    },
+    {
+      "name": "⚠️ Rules",
+      "id": "sk_rules",
+      "description": "1. **Use the right execution mode per agent**:\n   - Codex/Pi/OpenCode: `pty:true`\n   - Claude Code: `--print --permission-mode bypassPermissions` (no PTY required)\n2. **Respect tool choice** - if user asks for Codex, use Codex.\n   - Orchestrator mode: do NOT hand-code patches yourself.\n   - If an ag",
+      "category": "error_handling",
+      "tags": [
+        "Rules",
+        "agent",
+        "orchestrator"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001676+00:00"
+    },
+    {
+      "name": "Progress Updates (Critical)",
+      "id": "sk_progress_updates_critical",
+      "description": "When you spawn a coding agent in the background, keep the user in the loop.",
+      "category": "control_flow",
+      "tags": [
+        "Critical",
+        "Progress",
+        "Updates",
+        "agent",
+        "loop"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001698+00:00"
+    },
+    {
+      "name": "Learnings",
+      "id": "sk_learnings",
+      "description": "- **PTY is essential** for Codex/Pi/OpenCode.\n- **Git repo required**: Codex needs a trusted git directory.\n- **Use `exec` under background orchestration**: short and long tasks follow the same path now.\n- **`submit` vs `write`**: use `submit` to send input plus Enter.\n- **Direct message send beats ",
+      "category": "multi_agent",
+      "tags": [
+        "Learnings"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "section",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001704+00:00"
+    },
+    {
+      "name": "`notifyAccount` (if applicable)",
+      "id": "sk_notifyaccount_if_applicable",
+      "description": "`notifyAccount` (if applicable)",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001708+00:00"
+    },
+    {
+      "name": "`notifyReplyTo` (if replying to a specific message is desired)",
+      "id": "sk_notifyreplyto_if_replying_to_a_specific_message",
+      "description": "`notifyReplyTo` (if replying to a specific message is desired)",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001712+00:00"
+    },
+    {
+      "name": "`notifyThreadId` (Telegram topic / Slack thread when applicable)",
+      "id": "sk_notifythreadid_telegram_topic_slack_thread_when",
+      "description": "`notifyThreadId` (Telegram topic / Slack thread when applicable)",
+      "category": "general",
+      "tags": [
+        "Slack",
+        "Telegram"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001715+00:00"
+    },
+    {
+      "name": "Include the notification route in the worker prompt and require the worker to call `openclaw message send` on completion",
+      "id": "sk_include_the_notification_route_in_the_worker_pro",
+      "description": "Include the notification route in the worker prompt and require the worker to call `openclaw message send` on completion.",
+      "category": "git_workflow",
+      "tags": [
+        "Include"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001718+00:00"
+    },
+    {
+      "name": "**Use the right execution mode per agent**:",
+      "id": "sk_use_the_right_execution_mode_per_agent",
+      "description": "**Use the right execution mode per agent**:",
+      "category": "multi_agent",
+      "tags": [
+        "Use",
+        "agent"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001721+00:00"
+    },
+    {
+      "name": "**Respect tool choice** - if user asks for Codex, use Codex.",
+      "id": "sk_respect_tool_choice_if_user_asks_for_codex_use",
+      "description": "**Respect tool choice** - if user asks for Codex, use Codex.",
+      "category": "general",
+      "tags": [
+        "Codex",
+        "Respect"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001724+00:00"
+    },
+    {
+      "name": "If an agent fails/hangs, respawn it or ask the user for direction, but don't silently take over.",
+      "id": "sk_if_an_agent_fails_hangs_respawn_it_or_ask_the_us",
+      "description": "If an agent fails/hangs, respawn it or ask the user for direction, but don't silently take over.",
+      "category": "error_handling",
+      "tags": [
+        "agent"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001726+00:00"
+    },
+    {
+      "name": "**Be patient** - don't kill sessions because they're \"slow\"",
+      "id": "sk_be_patient_don_t_kill_sessions_because_they_re",
+      "description": "**Be patient** - don't kill sessions because they're \"slow\"",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001749+00:00"
+    },
+    {
+      "name": "Send 1 short message when you start: what is running and where.",
+      "id": "sk_send_1_short_message_when_you_start_what_is_runn",
+      "description": "Send 1 short message when you start: what is running and where.",
+      "category": "general",
+      "tags": [
+        "Send"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001755+00:00"
+    },
+    {
+      "name": "Update only when something changes:",
+      "id": "sk_update_only_when_something_changes",
+      "description": "Update only when something changes:",
+      "category": "general",
+      "tags": [
+        "Update"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001759+00:00"
+    },
+    {
+      "name": "If you kill a session, immediately say you killed it and why.",
+      "id": "sk_if_you_kill_a_session_immediately_say_you_killed",
+      "description": "If you kill a session, immediately say you killed it and why.",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001763+00:00"
+    },
+    {
+      "name": "If you are expecting the worker to self-notify with `openclaw message send`, say that clearly in your start update.",
+      "id": "sk_if_you_are_expecting_the_worker_to_self_notify_w",
+      "description": "If you are expecting the worker to self-notify with `openclaw message send`, say that clearly in your start update.",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001783+00:00"
+    },
+    {
+      "name": "Use `background:true` for every coding-agent launch.",
+      "id": "sk_use_background_true_for_every_coding_agent_launc",
+      "description": "Use `background:true` for every coding-agent launch.",
+      "category": "multi_agent",
+      "tags": [
+        "Use",
+        "agent"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001788+00:00"
+    },
+    {
+      "name": "Do not use the foreground one-shot path in this skill.",
+      "id": "sk_do_not_use_the_foreground_one_shot_path_in_this",
+      "description": "Do not use the foreground one-shot path in this skill.",
+      "category": "skill_packaging",
+      "tags": [
+        "skill"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001791+00:00"
+    },
+    {
+      "name": "If the user asked for Codex, use Codex.",
+      "id": "sk_if_the_user_asked_for_codex_use_codex",
+      "description": "If the user asked for Codex, use Codex.",
+      "category": "general",
+      "tags": [
+        "Codex"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001794+00:00"
+    },
+    {
+      "name": "Completion messaging must have a real route.",
+      "id": "sk_completion_messaging_must_have_a_real_route",
+      "description": "Completion messaging must have a real route.",
+      "category": "general",
+      "tags": [
+        "Completion"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001797+00:00"
+    },
+    {
+      "name": "If a worker fails or hangs, respawn it or ask for direction. Do not quietly switch to hand-editing.",
+      "id": "sk_if_a_worker_fails_or_hangs_respawn_it_or_ask_for",
+      "description": "If a worker fails or hangs, respawn it or ask for direction. Do not quietly switch to hand-editing.",
+      "category": "error_handling",
+      "tags": [],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001799+00:00"
+    },
+    {
+      "name": "Do not kill sessions just because they are slow.",
+      "id": "sk_do_not_kill_sessions_just_because_they_are_slow",
+      "description": "Do not kill sessions just because they are slow.",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001801+00:00"
+    },
+    {
+      "name": "Many background Codex sessions can run at once.",
+      "id": "sk_many_background_codex_sessions_can_run_at_once",
+      "description": "Many background Codex sessions can run at once.",
+      "category": "general",
+      "tags": [
+        "Codex",
+        "Many"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001803+00:00"
+    },
+    {
+      "name": "**Use `exec` under background orchestration**: short and long tasks follow the same path now.",
+      "id": "sk_use_exec_under_background_orchestration_short_a",
+      "description": "**Use `exec` under background orchestration**: short and long tasks follow the same path now.",
+      "category": "multi_agent",
+      "tags": [
+        "Use"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001805+00:00"
+    },
+    {
+      "name": "**`submit` vs `write`**: use `submit` to send input plus Enter.",
+      "id": "sk_submit_vs_write_use_submit_to_send_input_plus_e",
+      "description": "**`submit` vs `write`**: use `submit` to send input plus Enter.",
+      "category": "general",
+      "tags": [
+        "Enter"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001827+00:00"
+    },
+    {
+      "name": "**Direct message send beats heartbeat for completion notification** when the user must be told immediately and heartbeat",
+      "id": "sk_direct_message_send_beats_heartbeat_for_complet",
+      "description": "**Direct message send beats heartbeat for completion notification** when the user must be told immediately and heartbeat may be disabled.",
+      "category": "general",
+      "tags": [
+        "Direct"
+      ],
+      "source": "SKILL-coding-agent.md",
+      "kind": "heuristic",
+      "lineage": "e96e15e3002ad588",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001832+00:00"
+    },
+    {
+      "name": "openclaw-test-heap-leaks",
+      "id": "sk_openclaw_test_heap_leaks",
+      "description": "Investigate OpenClaw pnpm test memory growth, Vitest OOMs, RSS spikes, and heap snapshot deltas.",
+      "category": "installation",
+      "tags": [],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "skill",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001836+00:00"
+    },
+    {
+      "name": "Workflow",
+      "id": "sk_workflow",
+      "description": "1. Reproduce the failing shape first.\n   - Match the real entrypoint if possible. For Linux CI-style unit failures, start with:\n   - `pnpm canvas:a2ui:bundle && OPENCLAW_TEST_MEMORY_TRACE=1 OPENCLAW_TEST_HEAPSNAPSHOT_INTERVAL_MS=60000 OPENCLAW_TEST_HEAPSNAPSHOT_DIR=.tmp/heapsnap OPENCLAW_TEST_WORKER",
+      "category": "installation",
+      "tags": [
+        "Workflow"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "section",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001839+00:00"
+    },
+    {
+      "name": "Heuristics",
+      "id": "sk_heuristics",
+      "description": "- Do not call everything a leak. In this repo, large `unit-fast` or `unit-fast-batch-*` growth can be a worker-lifetime problem rather than an application object leak.\n- `scripts/test-parallel.mjs` and `scripts/test-parallel-memory.mjs` are the primary control points for wrapper diagnostics.\n- The l",
+      "category": "control_flow",
+      "tags": [
+        "Heuristics"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "section",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001859+00:00"
+    },
+    {
+      "name": "Snapshot Comparison",
+      "id": "sk_snapshot_comparison",
+      "description": "- Direct comparison:\n  - `node .agents/skills/openclaw-test-heap-leaks/scripts/heapsnapshot-delta.mjs before.heapsnapshot after.heapsnapshot`\n- Auto-select earliest/latest snapshots per PID within one lane:\n  - `node .agents/skills/openclaw-test-heap-leaks/scripts/heapsnapshot-delta.mjs --lane-dir .",
+      "category": "control_flow",
+      "tags": [
+        "Comparison",
+        "Snapshot",
+        "agent",
+        "skill"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "section",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001864+00:00"
+    },
+    {
+      "name": "Output Expectations",
+      "id": "sk_output_expectations",
+      "description": "When using this skill, report:",
+      "category": "skill_packaging",
+      "tags": [
+        "Expectations",
+        "Output",
+        "skill"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "section",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001869+00:00"
+    },
+    {
+      "name": "Match the real entrypoint if possible. For Linux CI-style unit failures, start with:",
+      "id": "sk_match_the_real_entrypoint_if_possible_for_linux",
+      "description": "Match the real entrypoint if possible. For Linux CI-style unit failures, start with:",
+      "category": "error_handling",
+      "tags": [
+        "CI-style",
+        "For",
+        "Linux",
+        "Match"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001873+00:00"
+    },
+    {
+      "name": "If the report is about a specific shard or worker budget, preserve that shape.",
+      "id": "sk_if_the_report_is_about_a_specific_shard_or_worke",
+      "description": "If the report is about a specific shard or worker budget, preserve that shape.",
+      "category": "git_workflow",
+      "tags": [],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001936+00:00"
+    },
+    {
+      "name": "Use `.agents/skills/openclaw-test-heap-leaks/scripts/heapsnapshot-delta.mjs` to compare either two files directly or the",
+      "id": "sk_use_agents_skills_openclaw_test_heap_leaks_scrip",
+      "description": "Use `.agents/skills/openclaw-test-heap-leaks/scripts/heapsnapshot-delta.mjs` to compare either two files directly or the earliest/latest pair per PID in one lane directory.",
+      "category": "multi_agent",
+      "tags": [
+        "Use",
+        "agent",
+        "skill"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001938+00:00"
+    },
+    {
+      "name": "If the helper suggests transformed-module retention, confirm the top entries in DevTools retainers/dominators before cal",
+      "id": "sk_if_the_helper_suggests_transformed_module_retent",
+      "description": "If the helper suggests transformed-module retention, confirm the top entries in DevTools retainers/dominators before calling it solved.",
+      "category": "general",
+      "tags": [
+        "DevTools"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001940+00:00"
+    },
+    {
+      "name": "If growth is dominated by Vite/Vitest transformed source strings, `Module`, `system / Context`, bytecode, descriptor arr",
+      "id": "sk_if_growth_is_dominated_by_vite_vitest_transforme",
+      "description": "If growth is dominated by Vite/Vitest transformed source strings, `Module`, `system / Context`, bytecode, descriptor arrays, or property maps, treat it as likely retained module graph growth in long-lived workers.",
+      "category": "testing",
+      "tags": [
+        "Context",
+        "Module",
+        "Vite",
+        "Vitest",
+        "system"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001943+00:00"
+    },
+    {
+      "name": "If growth is dominated by app objects, caches, buffers, server handles, timers, mock state, sqlite state, or similar run",
+      "id": "sk_if_growth_is_dominated_by_app_objects_caches_buf",
+      "description": "If growth is dominated by app objects, caches, buffers, server handles, timers, mock state, sqlite state, or similar runtime objects, treat it as a likely cleanup or lifecycle leak.",
+      "category": "general",
+      "tags": [],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001945+00:00"
+    },
+    {
+      "name": "If the names are ambiguous, stop short of a confident label and inspect retainers/dominators in DevTools for the top del",
+      "id": "sk_if_the_names_are_ambiguous_stop_short_of_a_confi",
+      "description": "If the names are ambiguous, stop short of a confident label and inspect retainers/dominators in DevTools for the top deltas.",
+      "category": "general",
+      "tags": [
+        "DevTools"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001947+00:00"
+    },
+    {
+      "name": "Prefer timing and hotspot-driven scheduling fixes first. Check whether the file is already represented in `test/fixtures",
+      "id": "sk_prefer_timing_and_hotspot_driven_scheduling_fixe",
+      "description": "Prefer timing and hotspot-driven scheduling fixes first. Check whether the file is already represented in `test/fixtures/test-timings.unit.json` and whether `scripts/test-update-memory-hotspots.mjs` should refresh the measured hotspot manifest before hand-editing behavior overrides.",
+      "category": "google_drive",
+      "tags": [
+        "Check",
+        "Prefer",
+        "drive",
+        "json"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001949+00:00"
+    },
+    {
+      "name": "Move hotspot files out of the real shared lane by updating `test/fixtures/test-parallel.behavior.json` only when timing-",
+      "id": "sk_move_hotspot_files_out_of_the_real_shared_lane_b",
+      "description": "Move hotspot files out of the real shared lane by updating `test/fixtures/test-parallel.behavior.json` only when timing-driven peeling is insufficient.",
+      "category": "google_drive",
+      "tags": [
+        "Move",
+        "drive",
+        "json"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001951+00:00"
+    },
+    {
+      "name": "If the file should already have been peeled out by timings but is absent from `test/fixtures/test-timings.unit.json`, ca",
+      "id": "sk_if_the_file_should_already_have_been_peeled_out",
+      "description": "If the file should already have been peeled out by timings but is absent from `test/fixtures/test-timings.unit.json`, call that out explicitly. Missing timings are a scheduling blind spot.",
+      "category": "testing",
+      "tags": [
+        "json"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001953+00:00"
+    },
+    {
+      "name": "Re-run the targeted lane or file with heap snapshots enabled if the suite still finishes in reasonable time.",
+      "id": "sk_re_run_the_targeted_lane_or_file_with_heap_snaps",
+      "description": "Re-run the targeted lane or file with heap snapshots enabled if the suite still finishes in reasonable time.",
+      "category": "frontend",
+      "tags": [
+        "Re-run"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001955+00:00"
+    },
+    {
+      "name": "If snapshot overhead pushes tests over Vitest timeouts, fall back to the same lane without snapshots and confirm the RSS",
+      "id": "sk_if_snapshot_overhead_pushes_tests_over_vitest_ti",
+      "description": "If snapshot overhead pushes tests over Vitest timeouts, fall back to the same lane without snapshots and confirm the RSS trend or OOM is reduced.",
+      "category": "testing",
+      "tags": [
+        "RSS",
+        "Vitest"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001977+00:00"
+    },
+    {
+      "name": "Do not call everything a leak. In this repo, large `unit-fast` or `unit-fast-batch-*` growth can be a worker-lifetime pr",
+      "id": "sk_do_not_call_everything_a_leak_in_this_repo_large",
+      "description": "Do not call everything a leak. In this repo, large `unit-fast` or `unit-fast-batch-*` growth can be a worker-lifetime problem rather than an application object leak.",
+      "category": "control_flow",
+      "tags": [],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001982+00:00"
+    },
+    {
+      "name": "When one or two files account for most of the delta and they are missing from timings, reducing impact by isolating them",
+      "id": "sk_when_one_or_two_files_account_for_most_of_the_de",
+      "description": "When one or two files account for most of the delta and they are missing from timings, reducing impact by isolating them is usually the first pragmatic fix.",
+      "category": "git_workflow",
+      "tags": [
+        "When"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001986+00:00"
+    },
+    {
+      "name": "When the same retained object families grow across multiple intervals in the same worker PID, trust the snapshots over i",
+      "id": "sk_when_the_same_retained_object_families_grow_acro",
+      "description": "When the same retained object families grow across multiple intervals in the same worker PID, trust the snapshots over intuition, then confirm ambiguous calls with retainer evidence.",
+      "category": "frontend",
+      "tags": [
+        "PID",
+        "When"
+      ],
+      "source": "SKILL-heap-leaks.md",
+      "kind": "heuristic",
+      "lineage": "c831ed59ac6ffbcf",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.001990+00:00"
+    },
+    {
+      "name": "taskflow",
+      "description": "Coordinate multi-step detached tasks as durable TaskFlow jobs",
+      "category": "agent_orchestration",
+      "source": "drive-folder-16DR0FXGDp1vnXSm_GB6cg7Y9AWDaRRlX",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.581046+00:00"
+    },
+    {
+      "name": "autonomous-drive-ingest",
+      "description": "Multi-pass Google Drive skill ingestion + multi-agent distillation",
+      "category": "skill_tooling",
+      "source": "drive-folder-16DR0FXGDp1vnXSm_GB6cg7Y9AWDaRRlX",
+      "added_by": "autonomous-drive-ingest",
+      "added_at": "2026-10-04T01:41:22.581067+00:00"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "hooks": [
+    {
+      "event": "session_start",
+      "command": "echo [plugin] core-infrastructure session_start"
+    },
+    {
+      "event": "post_tool_use",
+      "command": "true"
+    }
+  ]
+}

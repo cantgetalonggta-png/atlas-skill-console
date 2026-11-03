@@ -1,0 +1,14 @@
+{
+  "name": "skill-tree-engine-pack",
+  "description": "Skill ontology, master/learned trees, encyclopedia cycles",
+  "version": "1.0.0",
+  "author": "autonomous-grok-session",
+  "license": "MIT",
+  "category": "meta",
+  "keywords": [
+    "skill-tree-engine-pack",
+    "meta",
+    "etc",
+    "healed"
+  ]
+}

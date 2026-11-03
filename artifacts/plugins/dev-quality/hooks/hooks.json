@@ -1,0 +1,12 @@
+{
+  "hooks": [
+    {
+      "event": "session_start",
+      "command": "echo [plugin] dev-quality session_start"
+    },
+    {
+      "event": "post_tool_use",
+      "command": "true"
+    }
+  ]
+}

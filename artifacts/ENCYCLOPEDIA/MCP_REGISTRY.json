@@ -1,0 +1,52 @@
+{
+  "generated": "2026-11-03T22:30:00Z",
+  "mode": "dev",
+  "transport": "stdio-npx",
+  "packs": {
+    "core-infrastructure": [
+      "filesystem",
+      "memory",
+      "time",
+      "git"
+    ],
+    "document-intelligence": [
+      "filesystem",
+      "fetch",
+      "memory"
+    ],
+    "agent-orchestration": [
+      "memory",
+      "sequential-thinking",
+      "fetch"
+    ],
+    "research-archival": [
+      "fetch",
+      "filesystem",
+      "memory",
+      "sequential-thinking"
+    ],
+    "deploy-everything": [
+      "github",
+      "filesystem",
+      "git",
+      "time"
+    ],
+    "skill-tree-engine-pack": [
+      "memory",
+      "filesystem",
+      "sequential-thinking"
+    ],
+    "dev-quality": [
+      "filesystem",
+      "github",
+      "git",
+      "sequential-thinking"
+    ]
+  },
+  "register": "mcporter config import | plugin load | rediscover via search_connected_tools is separate Grok connectors layer",
+  "notes": [
+    "GITHUB_TOKEN must be present in env for github MCP server",
+    "Cloudflare/Grok connectors remain separate OAuth layer",
+    "Empty mcpServers filled with real @modelcontextprotocol/* packages"
+  ]
+}

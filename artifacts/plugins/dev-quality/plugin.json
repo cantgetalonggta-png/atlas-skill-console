@@ -1,0 +1,14 @@
+{
+  "name": "dev-quality",
+  "description": "TDD, triage, SQL, play billing detector",
+  "version": "1.0.0",
+  "author": "autonomous-grok-session",
+  "license": "MIT",
+  "category": "quality",
+  "keywords": [
+    "dev-quality",
+    "quality",
+    "etc",
+    "healed"
+  ]
+}

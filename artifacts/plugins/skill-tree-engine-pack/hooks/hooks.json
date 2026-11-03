@@ -1,0 +1,12 @@
+{
+  "hooks": [
+    {
+      "event": "session_start",
+      "command": "echo [plugin] skill-tree-engine-pack session_start"
+    },
+    {
+      "event": "post_tool_use",
+      "command": "true"
+    }
+  ]
+}

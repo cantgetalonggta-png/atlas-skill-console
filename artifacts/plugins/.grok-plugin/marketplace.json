@@ -1,0 +1,107 @@
+{
+  "name": "etc-workspace-marketplace",
+  "description": "Autonomous ETC/HEALED workspace plugins",
+  "owner": {
+    "name": "Grok Build Session"
+  },
+  "plugins": [
+    {
+      "name": "core-infrastructure",
+      "description": "FUSE heal, session state, install-hands-off, inventory, action ledger",
+      "category": "infrastructure",
+      "source": {
+        "type": "local",
+        "path": "./plugins/core-infrastructure"
+      },
+      "version": "1.0.0",
+      "keywords": [
+        "core-infrastructure",
+        "infrastructure"
+      ]
+    },
+    {
+      "name": "document-intelligence",
+      "description": "PDF/MD/JSON ingest, OCR, page breakdown, vault routing",
+      "category": "documents",
+      "source": {
+        "type": "local",
+        "path": "./plugins/document-intelligence"
+      },
+      "version": "1.0.0",
+      "keywords": [
+        "document-intelligence",
+        "documents"
+      ]
+    },
+    {
+      "name": "agent-orchestration",
+      "description": "Team of Four, swarm, agent-orchestration, prose VM",
+      "category": "agents",
+      "source": {
+        "type": "local",
+        "path": "./plugins/agent-orchestration"
+      },
+      "version": "1.0.0",
+      "keywords": [
+        "agent-orchestration",
+        "agents"
+      ]
+    },
+    {
+      "name": "research-archival",
+      "description": "Archivist 200-search protocol, ethical harvest, scraper orchestration",
+      "category": "research",
+      "source": {
+        "type": "local",
+        "path": "./plugins/research-archival"
+      },
+      "version": "1.0.0",
+      "keywords": [
+        "research-archival",
+        "research"
+      ]
+    },
+    {
+      "name": "deploy-everything",
+      "description": "Vite frontend, Vercel path, GitHub, OSS gate, CI parity",
+      "category": "deployment",
+      "source": {
+        "type": "local",
+        "path": "./plugins/deploy-everything"
+      },
+      "version": "1.0.0",
+      "keywords": [
+        "deploy-everything",
+        "deployment"
+      ]
+    },
+    {
+      "name": "skill-tree-engine-pack",
+      "description": "Skill ontology, master/learned trees, encyclopedia cycles",
+      "category": "meta",
+      "source": {
+        "type": "local",
+        "path": "./plugins/skill-tree-engine-pack"
+      },
+      "version": "1.0.0",
+      "keywords": [
+        "skill-tree-engine-pack",
+        "meta"
+      ]
+    },
+    {
+      "name": "dev-quality",
+      "description": "TDD, triage, SQL, play billing detector",
+      "category": "quality",
+      "source": {
+        "type": "local",
+        "path": "./plugins/dev-quality"
+      },
+      "version": "1.0.0",
+      "keywords": [
+        "dev-quality",
+        "quality"
+      ]
+    }
+  ]
+}

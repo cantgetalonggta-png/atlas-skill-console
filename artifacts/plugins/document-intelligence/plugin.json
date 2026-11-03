@@ -1,0 +1,14 @@
+{
+  "name": "document-intelligence",
+  "description": "PDF/MD/JSON ingest, OCR, page breakdown, vault routing",
+  "version": "1.0.0",
+  "author": "autonomous-grok-session",
+  "license": "MIT",
+  "category": "documents",
+  "keywords": [
+    "document-intelligence",
+    "documents",
+    "etc",
+    "healed"
+  ]
+}

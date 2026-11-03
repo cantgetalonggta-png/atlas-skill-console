@@ -1,0 +1,79 @@
+{
+  "generated": "2026-11-03T22:00:00Z",
+  "github": {
+    "login": "cantgetalonggta-png",
+    "id": 277421290,
+    "profile_url": "https://github.com/cantgetalonggta-png",
+    "public_repos": 37
+  },
+  "vercel": {
+    "team_id": "team_kgQcPVmumwtmK3MdAGlxKJtg",
+    "slug": "echo-ec69",
+    "projects_count_at_probe": 0
+  },
+  "google_drive": {
+    "swarm_state_folder_id": "1FYoOdLbrn5doHbaEllHSYAUBde-Fk4mX",
+    "session_mandate_folder_id": "1mb2X30ZJSDDaQQLnmO_9q_sesy-eDgux",
+    "probe": "search_ok"
+  },
+  "automations": {
+    "count": 3,
+    "tasks": [
+      {
+        "taskId": "adbfdde6-10e7-4851-8990-ea92510405df",
+        "name": "epstein-public-hourly-delta-report",
+        "active": true
+      },
+      {
+        "taskId": "58c20632-e1dc-42e7-884e-0a84be5b41bd",
+        "name": "epstein-public-daily-full-report",
+        "active": true
+      },
+      {
+        "taskId": "d3c44c6f-b0b0-4724-bfa1-8cf0c50677cc",
+        "name": "epstein-breadcrumb-anomaly-mesh",
+        "active": true,
+        "schedule_enabled": false
+      }
+    ],
+    "trigger_providers": [
+      "gmail",
+      "outlook",
+      "github",
+      "linear",
+      "finance",
+      "webhook"
+    ]
+  },
+  "voice": {
+    "voices_count": 28
+  },
+  "plugin_mcp": {
+    "packs": [
+      "agent-orchestration",
+      "core-infrastructure",
+      "deploy-everything",
+      "dev-quality",
+      "document-intelligence",
+      "research-archival",
+      "skill-tree-engine-pack"
+    ],
+    "mcpServers": {}
+  },
+  "connectors_connected": [
+    "GitHub",
+    "Vercel",
+    "Google Drive",
+    "Automations",
+    "Voice",
+    "Ezvp8ce",
+    "Cloudflare mcp",
+    "Cloudflare agent",
+    "HyperFrames by HeyGen",
+    "Apex",
+    "Vera",
+    "Tandem",
+    "Mee"
+  ],
+  "autonomy_boundary": "Automations + chat turns only; no free-floating daemon; OAuth re-auth human"
+}

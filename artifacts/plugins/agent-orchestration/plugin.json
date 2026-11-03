@@ -1,0 +1,14 @@
+{
+  "name": "agent-orchestration",
+  "description": "Team of Four, swarm, agent-orchestration, prose VM",
+  "version": "1.0.0",
+  "author": "autonomous-grok-session",
+  "license": "MIT",
+  "category": "agents",
+  "keywords": [
+    "agent-orchestration",
+    "agents",
+    "etc",
+    "healed"
+  ]
+}
