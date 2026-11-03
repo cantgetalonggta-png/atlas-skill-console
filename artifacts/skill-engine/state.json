@@ -1,0 +1,663 @@
+{
+  "cycle": 5,
+  "updated_at": "2026-11-03T05:38:37.907261Z",
+  "atoms": [
+    {
+      "id": "sk_0",
+      "name": "sk_grok_build_plugin_package",
+      "definition": "sk_grok_build_plugin_package",
+      "version": 1
+    },
+    {
+      "id": "sk_1",
+      "name": "sk_plugin_locations_map",
+      "definition": "sk_plugin_locations_map",
+      "version": 1
+    },
+    {
+      "id": "sk_2",
+      "name": "sk_zero_loss_drive_ingest",
+      "definition": "sk_zero_loss_drive_ingest",
+      "version": 1
+    },
+    {
+      "id": "sk_3",
+      "name": "sk_skill_tree_cycle",
+      "definition": "sk_skill_tree_cycle",
+      "version": 1
+    },
+    {
+      "id": "sk_4",
+      "name": "sk_clawhub_registry_ops",
+      "definition": "sk_clawhub_registry_ops",
+      "version": 1
+    },
+    {
+      "id": "sk_5",
+      "name": "sk_team_of_four_r_d",
+      "definition": "sk_team_of_four_r_d",
+      "version": 1
+    },
+    {
+      "id": "sk_6",
+      "name": "sk_swarm_agent_framework_background",
+      "definition": "sk_swarm_agent_framework_background",
+      "version": 1
+    },
+    {
+      "id": "sk_7",
+      "name": "sk_document_vault_ingest",
+      "definition": "sk_document_vault_ingest",
+      "version": 1
+    },
+    {
+      "id": "sk_8",
+      "name": "sk_deploy_everything_plugin_pack",
+      "definition": "sk_deploy_everything_plugin_pack",
+      "version": 1
+    },
+    {
+      "id": "sk_9",
+      "name": "sk_archivist_200_search_protocol",
+      "definition": "sk_archivist_200_search_protocol",
+      "version": 1
+    },
+    {
+      "id": "sk_10",
+      "name": "sk_9000_word_minimum",
+      "definition": "sk_9000_word_minimum",
+      "version": 1
+    },
+    {
+      "id": "sk_11",
+      "name": "sk_agent_orchestration",
+      "definition": "sk_agent_orchestration",
+      "version": 1
+    },
+    {
+      "id": "sk_12",
+      "name": "sk_apple_notes",
+      "definition": "sk_apple_notes",
+      "version": 1
+    },
+    {
+      "id": "sk_13",
+      "name": "sk_archivist",
+      "definition": "sk_archivist",
+      "version": 1
+    },
+    {
+      "id": "sk_14",
+      "name": "sk_batch_api_wrapper",
+      "definition": "sk_batch_api_wrapper",
+      "version": 1
+    },
+    {
+      "id": "sk_15",
+      "name": "sk_blacksmith_testbox",
+      "definition": "sk_blacksmith_testbox",
+      "version": 1
+    },
+    {
+      "id": "sk_16",
+      "name": "sk_bluebubbles",
+      "definition": "sk_bluebubbles",
+      "version": 1
+    },
+    {
+      "id": "sk_17",
+      "name": "sk_clawhub",
+      "definition": "sk_clawhub",
+      "version": 1
+    },
+    {
+      "id": "sk_18",
+      "name": "sk_coherent_communication",
+      "definition": "sk_coherent_communication",
+      "version": 1
+    },
+    {
+      "id": "sk_19",
+      "name": "sk_common_sense_logic_critical_thinking",
+      "definition": "sk_common_sense_logic_critical_thinking",
+      "version": 1
+    },
+    {
+      "id": "sk_20",
+      "name": "sk_continue_next_or_continue",
+      "definition": "sk_continue_next_or_continue",
+      "version": 1
+    },
+    {
+      "id": "sk_21",
+      "name": "sk_document_ingestion",
+      "definition": "sk_document_ingestion",
+      "version": 1
+    },
+    {
+      "id": "sk_22",
+      "name": "sk_document_intelligence",
+      "definition": "sk_document_intelligence",
+      "version": 1
+    },
+    {
+      "id": "sk_23",
+      "name": "sk_each_structured_prompt_research",
+      "definition": "sk_each_structured_prompt_research",
+      "version": 1
+    },
+    {
+      "id": "sk_24",
+      "name": "sk_epstein_pdf_batch_ingest",
+      "definition": "sk_epstein_pdf_batch_ingest",
+      "version": 1
+    },
+    {
+      "id": "sk_25",
+      "name": "sk_ethical_data_harvesting",
+      "definition": "sk_ethical_data_harvesting",
+      "version": 1
+    },
+    {
+      "id": "sk_26",
+      "name": "sk_ethical_scraper_orchestration",
+      "definition": "sk_ethical_scraper_orchestration",
+      "version": 1
+    },
+    {
+      "id": "sk_27",
+      "name": "sk_external_api_wrapper",
+      "definition": "sk_external_api_wrapper",
+      "version": 1
+    },
+    {
+      "id": "sk_28",
+      "name": "sk_game_dev",
+      "definition": "sk_game_dev",
+      "version": 1
+    },
+    {
+      "id": "sk_29",
+      "name": "sk_github",
+      "definition": "sk_github",
+      "version": 1
+    },
+    {
+      "id": "sk_30",
+      "name": "sk_gog",
+      "definition": "sk_gog",
+      "version": 1
+    },
+    {
+      "id": "sk_31",
+      "name": "sk_grok_4_20_multi_agent",
+      "definition": "sk_grok_4_20_multi_agent",
+      "version": 1
+    },
+    {
+      "id": "sk_32",
+      "name": "sk_grok_build_plugins",
+      "definition": "sk_grok_build_plugins",
+      "version": 1
+    },
+    {
+      "id": "sk_33",
+      "name": "sk_issue_triage",
+      "definition": "sk_issue_triage",
+      "version": 1
+    },
+    {
+      "id": "sk_34",
+      "name": "sk_mcporter",
+      "definition": "sk_mcporter",
+      "version": 1
+    },
+    {
+      "id": "sk_35",
+      "name": "sk_mega_skill",
+      "definition": "sk_mega_skill",
+      "version": 1
+    },
+    {
+      "id": "sk_36",
+      "name": "sk_mongo_tom_roleplay",
+      "definition": "sk_mongo_tom_roleplay",
+      "version": 1
+    },
+    {
+      "id": "sk_37",
+      "name": "sk_nano_pdf",
+      "definition": "sk_nano_pdf",
+      "version": 1
+    },
+    {
+      "id": "sk_38",
+      "name": "sk_next_investigation_trigger",
+      "definition": "sk_next_investigation_trigger",
+      "version": 1
+    },
+    {
+      "id": "sk_39",
+      "name": "sk_obsidian_vault_maintainer",
+      "definition": "sk_obsidian_vault_maintainer",
+      "version": 1
+    },
+    {
+      "id": "sk_40",
+      "name": "sk_omnivoice_api",
+      "definition": "sk_omnivoice_api",
+      "version": 1
+    },
+    {
+      "id": "sk_41",
+      "name": "sk_openai_whisper_api",
+      "definition": "sk_openai_whisper_api",
+      "version": 1
+    },
+    {
+      "id": "sk_42",
+      "name": "sk_oss_compliance_gate",
+      "definition": "sk_oss_compliance_gate",
+      "version": 1
+    },
+    {
+      "id": "sk_43",
+      "name": "sk_pdf_page_section_breakdown",
+      "definition": "sk_pdf_page_section_breakdown",
+      "version": 1
+    },
+    {
+      "id": "sk_44",
+      "name": "sk_play_billing_activation_detector",
+      "definition": "sk_play_billing_activation_detector",
+      "version": 1
+    },
+    {
+      "id": "sk_45",
+      "name": "sk_postgresql_sql",
+      "definition": "sk_postgresql_sql",
+      "version": 1
+    },
+    {
+      "id": "sk_46",
+      "name": "sk_prose",
+      "definition": "sk_prose",
+      "version": 1
+    },
+    {
+      "id": "sk_47",
+      "name": "sk_qqbot_channel",
+      "definition": "sk_qqbot_channel",
+      "version": 1
+    },
+    {
+      "id": "sk_48",
+      "name": "sk_rtk_triage",
+      "definition": "sk_rtk_triage",
+      "version": 1
+    },
+    {
+      "id": "sk_49",
+      "name": "sk_run_everything_activation",
+      "definition": "sk_run_everything_activation",
+      "version": 1
+    },
+    {
+      "id": "sk_50",
+      "name": "sk_self_dev_resources",
+      "definition": "sk_self_dev_resources",
+      "version": 1
+    },
+    {
+      "id": "sk_51",
+      "name": "sk_skill_tree_engine",
+      "definition": "sk_skill_tree_engine",
+      "version": 1
+    },
+    {
+      "id": "sk_52",
+      "name": "sk_swarm_agent_framework",
+      "definition": "sk_swarm_agent_framework",
+      "version": 1
+    },
+    {
+      "id": "sk_53",
+      "name": "sk_tdd_rust",
+      "definition": "sk_tdd_rust",
+      "version": 1
+    },
+    {
+      "id": "sk_54",
+      "name": "sk_tenant_misconceptions_rebuttal",
+      "definition": "sk_tenant_misconceptions_rebuttal",
+      "version": 1
+    },
+    {
+      "id": "sk_55",
+      "name": "sk_tmux",
+      "definition": "sk_tmux",
+      "version": 1
+    },
+    {
+      "id": "sk_56",
+      "name": "sk_tool_use",
+      "definition": "sk_tool_use",
+      "version": 1
+    },
+    {
+      "id": "sk_57",
+      "name": "sk_video_frames",
+      "definition": "sk_video_frames",
+      "version": 1
+    },
+    {
+      "id": "sk_58",
+      "name": "sk_vite",
+      "definition": "sk_vite",
+      "version": 1
+    },
+    {
+      "id": "sk_59",
+      "name": "sk_wacli",
+      "definition": "sk_wacli",
+      "version": 1
+    },
+    {
+      "id": "sk_60",
+      "name": "sk_fuse_heal",
+      "definition": "sk_fuse_heal",
+      "version": 1
+    },
+    {
+      "id": "sk_61",
+      "name": "sk_archivist_batch",
+      "definition": "sk_archivist_batch",
+      "version": 1
+    },
+    {
+      "id": "sk_62",
+      "name": "sk_plugin_scaffold",
+      "definition": "sk_plugin_scaffold",
+      "version": 1
+    },
+    {
+      "id": "sk_63",
+      "name": "sk_vite_encyclopedia_spa",
+      "definition": "sk_vite_encyclopedia_spa",
+      "version": 1
+    },
+    {
+      "id": "sk_64",
+      "name": "sk_vercel_deploy_path",
+      "definition": "sk_vercel_deploy_path",
+      "version": 1
+    },
+    {
+      "id": "sk_65",
+      "name": "sk_zero_loss_ingest",
+      "definition": "sk_zero_loss_ingest",
+      "version": 1
+    },
+    {
+      "id": "sk_archivist-batch-protocol",
+      "name": "Archivist Batch Protocol",
+      "definition": "Clinical 200-search empirical batch with data-only output and permanent encyclopedia save",
+      "purpose": "Mass research without framing",
+      "inputs": [
+        "objective",
+        "query families"
+      ],
+      "outputs": [
+        "ARCHIVIST_BATCH_N.md"
+      ],
+      "dependencies": [
+        "web_search",
+        "connected tools"
+      ],
+      "subskills": [
+        "Boolean query expansion"
+      ],
+      "domain": "research",
+      "tags": [
+        "archivist",
+        "batch"
+      ],
+      "version": 1,
+      "lineage": "cycle4"
+    },
+    {
+      "id": "sk_vercel-static-spa-deploy",
+      "name": "Vercel Static SPA Deploy",
+      "definition": "Deploy framework-null static SPA via create_deployment files or git project link",
+      "purpose": "Live frontend publish",
+      "inputs": [
+        "frontend assets",
+        "teamId"
+      ],
+      "outputs": [
+        "deployment URL"
+      ],
+      "dependencies": [
+        "vercel MCP",
+        "vercel.json"
+      ],
+      "subskills": [
+        "SPA rewrites"
+      ],
+      "domain": "deployment",
+      "tags": [
+        "vercel",
+        "frontend"
+      ],
+      "version": 1,
+      "lineage": "cycle4"
+    },
+    {
+      "id": "sk_fuse-dual-path-heal",
+      "name": "Fuse Dual Path Heal",
+      "definition": "Mirror FUSE-fragile trees into HEALED via Drive re-download and byte rewrite",
+      "purpose": "Zero permanent loss",
+      "inputs": [
+        "ETC path",
+        "Drive folder id"
+      ],
+      "outputs": [
+        "HEALED canonical files"
+      ],
+      "dependencies": [
+        "google_drive_download_artifact"
+      ],
+      "subskills": [
+        "hash verify"
+      ],
+      "domain": "infrastructure",
+      "tags": [
+        "fuse",
+        "heal"
+      ],
+      "version": 1,
+      "lineage": "cycle4"
+    },
+    {
+      "id": "sk_backend-multi-route-service",
+      "name": "Backend Multi Route Service",
+      "definition": "stdlib ThreadingHTTPServer exposing skills plugins session inventory archivist deploy-status APIs",
+      "purpose": "Local backend services for console",
+      "inputs": [
+        "session_state",
+        "catalog"
+      ],
+      "outputs": [
+        "JSON API :8787"
+      ],
+      "dependencies": [
+        "python3"
+      ],
+      "subskills": [
+        "CORS",
+        "session patch"
+      ],
+      "domain": "backend",
+      "tags": [
+        "api",
+        "stdlib"
+      ],
+      "version": 1,
+      "lineage": "cycle4"
+    },
+    {
+      "id": "sk_plugin-marketplace-packaging",
+      "name": "Plugin Marketplace Packaging",
+      "definition": "Categorized Grok Build plugins with plugin.json hooks MCP local marketplace catalog",
+      "purpose": "/deploy-everything packaging",
+      "inputs": [
+        "skill set"
+      ],
+      "outputs": [
+        "plugins/*",
+        "marketplace-catalog.json"
+      ],
+      "dependencies": [
+        "grok-build-plugins"
+      ],
+      "subskills": [
+        "SHA pin remote"
+      ],
+      "domain": "meta",
+      "tags": [
+        "plugins",
+        "marketplace"
+      ],
+      "version": 1,
+      "lineage": "cycle4"
+    },
+    {
+      "id": "sk_superagent-bridge-docs",
+      "name": "Superagent Bridge Docs",
+      "definition": "Document community superagent-ai/grok-cli as distinct multi-engine agent without conflating with xAI Grok Build",
+      "purpose": "Correct multi-engine orchestration",
+      "inputs": [
+        "Drive superagent docs"
+      ],
+      "outputs": [
+        "SUPERAGENT_GROK_CLI_BRIDGE.md"
+      ],
+      "dependencies": [
+        "document-intelligence"
+      ],
+      "subskills": [],
+      "domain": "agents",
+      "tags": [
+        "superagent",
+        "bridge"
+      ],
+      "version": 1,
+      "lineage": "cycle4"
+    },
+    {
+      "id": "sk_github-ship-playbook",
+      "name": "GitHub Ship Playbook",
+      "definition": "get_me \u2192 push_files/git push \u2192 PR \u2192 merge; pin owner+repo id",
+      "domain": "deployment",
+      "version": "1.0",
+      "tags": [
+        "github",
+        "ship"
+      ]
+    },
+    {
+      "id": "sk_vercel-ship-playbook",
+      "name": "Vercel Ship Playbook",
+      "definition": "create_git_project(teamId,repo) then create_deployment; skip create_project loop on 403",
+      "domain": "deployment",
+      "version": "1.0",
+      "tags": [
+        "vercel",
+        "ship"
+      ]
+    },
+    {
+      "id": "sk_mcp-plugin-fill",
+      "name": "MCP Plugin Fill",
+      "definition": "Write real @modelcontextprotocol stdio servers into plugin .mcp.json; register mcporter; rediscover",
+      "domain": "platform",
+      "version": "1.0",
+      "tags": [
+        "mcp",
+        "plugins"
+      ]
+    },
+    {
+      "id": "sk_automation-permanent",
+      "name": "Automation Permanent Loop",
+      "definition": "automation_validate\u2192create with HITL=NO, RRULE, pinned IDs, Drive writeback",
+      "domain": "orchestration",
+      "version": "1.0",
+      "tags": [
+        "automations"
+      ]
+    },
+    {
+      "id": "sk_drive-zero-loss",
+      "name": "Drive Zero-Loss Cycle",
+      "definition": "search\u2192download/read\u2192work\u2192upload state+reports to pinned folder",
+      "domain": "documents",
+      "version": "1.0",
+      "tags": [
+        "drive"
+      ]
+    }
+  ],
+  "counts": {
+    "atoms": 72,
+    "added": 6,
+    "updated": 0
+  },
+  "engine": {
+    "upgrades": [
+      "Drive folder unlocked; PDF recovered; Dashboard #2; Installer shebang fixed",
+      "Cycle 2: merged 50 live skills + 6 session meta-atoms; plugin catalog exported",
+      {
+        "cycle": 4,
+        "note": "Deploy+archivist+heal+backend multi-route atoms; permanent encyclopedia export",
+        "at": "2026-11-03T05:38:37.907261Z"
+      }
+    ]
+  },
+  "masterSkillsTree": {
+    "Infrastructure": [
+      "Fuse Dual Path Heal",
+      "Backend Multi Route Service"
+    ],
+    "Deployment": [
+      "Vercel Static SPA Deploy",
+      "Plugin Marketplace Packaging"
+    ],
+    "Research": [
+      "Archivist Batch Protocol"
+    ],
+    "Agents": [
+      "Superagent Bridge Docs"
+    ]
+  },
+  "learnedKnowledgeTree": {
+    "SupplyChain": [
+      "SHA pin remote plugins"
+    ],
+    "StaticHosting": [
+      "framework null SPA rewrites"
+    ],
+    "CommunityVsOfficial": [
+      "superagent-ai/grok-cli != xAI Grok Build"
+    ]
+  },
+  "update_log": [
+    {
+      "cycle": 3,
+      "ts": "2026-11-03T05:36Z",
+      "note": "auto cycle after bg TypeError fix + backend live + vercel prep"
+    }
+  ],
+  "last_run": "2026-11-03T06:26:35.535303Z",
+  "last_added": 5
+}

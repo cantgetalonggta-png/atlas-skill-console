@@ -1,0 +1,60 @@
+{
+  "engine": {
+    "cycle": 1,
+    "upgrades": []
+  },
+  "atoms": {},
+  "insights": [],
+  "log": [],
+  "masterSkillsTree": {
+    "id": "root",
+    "name": "Master Skills",
+    "children": [
+      {
+        "id": "infra",
+        "name": "Core Infrastructure & Tooling",
+        "children": []
+      },
+      {
+        "id": "docs",
+        "name": "Document Media & File Intelligence",
+        "children": []
+      },
+      {
+        "id": "comm",
+        "name": "Communication Messaging & Voice",
+        "children": []
+      },
+      {
+        "id": "dev",
+        "name": "Development CI Build & Deploy",
+        "children": []
+      },
+      {
+        "id": "research",
+        "name": "Research Knowledge & Archival",
+        "children": []
+      },
+      {
+        "id": "orch",
+        "name": "Agent Orchestration & Multi-Agent",
+        "children": []
+      },
+      {
+        "id": "domain",
+        "name": "Domain-Specific & Specialized",
+        "children": []
+      },
+      {
+        "id": "util",
+        "name": "Utility System & Activation",
+        "children": []
+      }
+    ]
+  },
+  "learnedKnowledgeTree": {
+    "id": "learned_root",
+    "name": "Learned Knowledge",
+    "children": []
+  }
+}
